@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+.color_prim_blue, header h1, .benefits .benefits_title, .platform .platform_title, .support .support_title, .needs .needs_title, .download .download_title span, .download .download_subtitle {
+  color: #4650FF; }
+
+.color_prim_purple {
+  color: #BFC3FF; }
+
+.color_sec_blue {
+  color: #000BCB; }
+
+.color_sec_blue_bright {
+  color: #1932FF; }
+
+.color_sec_dark, .platform .card_platform .card-text, .needs .needs_title span, .needs .needs_description, .needs .needs_tab, .needs .card, .download .download_title {
+  color: #041E42; }
+
+.color_sec_white, footer {
+  color: #FFF; }
+
+.bg_prim_blue, header .description .blue_rectangle, header .btn_beta, .support .blue_rectangle, .download .description .blue_rectangle, footer {
+  background-color: #4650FF; }
+
+.bg_black {
+  background-color: #272727; }
+
+.bg_gray_dark, .needs .black_rectangle {
+  background-color: #B4B4B5; }
+
+.bg_gray {
+  background-color: #C4C4C4; }
+
+.bg_gray_soft {
+  background-color: #e0e1e2; }
+
+.bg_gray_light, .navbar-light, .benefits, .platform, .support {
+  background-color: #f7f7f7; }
+
+.bg_white, .needs, .download {
+  background-color: #FFF; }
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0;
+  position: relative;
+  padding-top: 50px; }
+
+header {
+  padding-top: 10px; }
+  header h1 {
+    line-height: 50px;
+    font-weight: bolder; }
+  header .description {
+    padding-top: 5px;
+    display: -webkit-inline-box; }
+    header .description .blue_rectangle {
+      width: 5px;
+      height: 100px;
+      margin-right: 20px; }
+    header .description .txt_description {
+      font-size: 21px;
+      font-weight: lighter;
+      line-height: 34px;
+      text-align: justify;
+      padding-right: 30px;
+      padding-bottom: 10px; }
+  header .btn_beta_space {
+    padding: 20px; }
+  header .btn_beta {
+    color: #FFF;
+    width: 250px;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    display: block; }
+  header .btns_apps {
+    margin: auto;
+    padding: auto;
+    max-width: 200px;
+    text-align: center;
+    display: block; }
+  header #header_image {
+    margin: 0;
+    padding: 0; }
+
+.benefits .benefits_title {
+  font-size: 35px;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 50px;
+  margin-bottom: 30px; }
+.benefits .card_benefits .card {
+  height: 425px;
+  padding-top: 10px; }
+.benefits .card_benefits .card-title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: normal; }
+.benefits .card_benefits .card-text {
+  text-align: center;
+  font-size: 20px;
+  font-weight: lighter; }
+.benefits .card_benefits img {
+  width: 150px;
+  padding: auto;
+  margin: auto; }
+
+.platform {
+  padding-top: 40px;
+  padding-bottom: 20px; }
+  .platform .platform_title {
+    font-size: 35px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-bottom: 30px; }
+  .platform .card_platform {
+    margin-bottom: 30px; }
+    .platform .card_platform .card {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      padding-left: 20px;
+      padding-right: 20px; }
+    .platform .card_platform .card-title {
+      font-size: 32px;
+      text-align: center;
+      font-weight: bold; }
+    .platform .card_platform .card-text {
+      text-align: center;
+      font-size: 16px;
+      font-weight: lighter; }
+    .platform .card_platform img {
+      width: 700px;
+      padding: auto;
+      margin: auto; }
+
+.support {
+  padding-bottom: 40px; }
+  .support .support_title {
+    font-size: 35px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-bottom: 30px; }
+  .support .card {
+    background: inherit;
+    border: inherit;
+    padding: 0;
+    margin: 0;
+    min-height: 475px; }
+  .support .blue_rectangle {
+    padding: auto;
+    margin: auto;
+    width: 90%;
+    height: 4px; }
+  .support .card_support {
+    padding-top: 60px; }
+    .support .card_support .card-title {
+      font-size: 30px;
+      text-align: center;
+      font-weight: normal; }
+    .support .card_support .card-text {
+      text-align: center;
+      font-size: 20px;
+      font-weight: lighter;
+      padding-top: 20px; }
+    .support .card_support img {
+      height: 175px;
+      padding: auto;
+      margin: auto; }
+
+.needs {
+  background-image: url("../../images/isibit_assets/isibit_11.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px; }
+  .needs .needs_title {
+    font-size: 50px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-bottom: 30px; }
+  .needs .needs_description {
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 30px; }
+  .needs .needs_tab {
+    display: inline-block;
+    font-size: 22px;
+    text-align: center;
+    font-weight: normal;
+    padding: auto;
+    margin: auto; }
+    .needs .needs_tab img {
+      max-height: 30px;
+      margin-left: 5px; }
+  .needs .black_rectangle {
+    display: inline-block;
+    width: 1px;
+    height: 80px;
+    padding: 0;
+    margin: 0; }
+  .needs .card {
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+
+.download {
+  margin-left: 20px;
+  margin-right: 0px;
+  background-image: url("../../images/isibit_assets/isibit_34.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  height: 800px; }
+  .download .download_title {
+    font-size: 50px;
+    text-align: left;
+    font-weight: normal; }
+  .download .download_subtitle {
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter; }
+  .download .description {
+    padding-top: 30px;
+    display: -webkit-inline-box; }
+    .download .description .blue_rectangle {
+      width: 5px;
+      height: 100px;
+      margin-right: 20px; }
+    .download .description .txt_description {
+      font-size: 21px;
+      font-weight: lighter;
+      line-height: 34px;
+      text-align: justify;
+      padding-right: 30px;
+      margin-bottom: 10px; }
+  .download .download_btns {
+    padding-top: 30px; }
+
+footer {
+  padding-bottom: 50px;
+  padding-top: 50px; }
+  footer .row .col-12 {
+    margin-top: 20px; }
+  footer .footer_bold {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder; }
+  footer .footer_item {
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 20px; }
+
+/*# sourceMappingURL=landing.css.map */

@@ -1,0 +1,418 @@
+//@import '../bootstrap/bootstrap.css';
+
+//VARS PRIMARY AND SECONDARY COLORS
+$c_prim_blue: #4650FF;
+$c_prim_purple: #BFC3FF;
+
+$c_sec_blue: #000BCB;
+$c_sec_blue_bright: #1932FF;
+$c_sec_blue_dark: #041E42;
+
+$c_sec_white: #FFF;
+
+
+
+//VARS BG COLORS
+$bg_black: #272727;
+$bg_gray_dark: #B4B4B5;
+$bg_gray: #C4C4C4;
+$bg_gray_soft: #e0e1e2;
+$bg_gray_light: #f7f7f7;
+$bg_white: #FFF;
+
+
+//Font Colors
+.color_prim_blue{ color:$c_prim_blue}
+.color_prim_purple{ color:$c_prim_purple}
+.color_sec_blue{ color:$c_sec_blue}
+.color_sec_blue_bright{ color:$c_sec_blue_bright}
+.color_sec_dark{ color:$c_sec_blue_dark}
+.color_sec_white{ color:$c_sec_white}
+
+
+
+//Bg PRIMARY Colors for btns
+.bg_prim_blue{ background-color:$c_prim_blue}
+
+//Bg Colors
+.bg_black{ background-color:$bg_black}
+.bg_gray_dark{ background-color:$bg_gray_dark; }
+.bg_gray{ background-color:$bg_gray; }
+.bg_gray_soft{ background-color:$bg_gray_soft; }
+.bg_gray_light{ background-color:$bg_gray_light; }
+.bg_white{ background-color:$bg_white; }
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html, body{
+  font-family: 'Montserrat', sans-serif;
+  width: 100% !important;
+  height: 100% !important;
+
+  margin:0;
+  position: relative;
+  padding-top: 50px;
+}
+
+
+.navbar-light{
+  @extend .bg_gray_light;
+}
+
+
+header{
+  padding-top: 10px;
+  h1{
+    @extend .color_prim_blue;
+    line-height: 50px;
+    font-weight: bolder;
+  }
+
+  .description{
+    padding-top: 5px;
+    display: -webkit-inline-box;
+
+    .blue_rectangle{
+      width: 5px;
+      height:100px;
+      margin-right: 20px;
+      @extend .bg_prim_blue;
+    }
+    .txt_description{
+      font-size: 21px;
+      font-weight: lighter;
+      line-height: 34px;
+      text-align: justify;
+      padding-right: 30px;
+
+      padding-bottom: 10px;
+    }
+  }
+
+  .btn_beta_space{
+    padding:20px;
+  }
+  .btn_beta{
+    @extend .bg_prim_blue;
+    color: $c_sec_white;
+    width: 250px;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    display: block;
+
+  }
+
+  .btns_apps{
+    margin: auto;
+    padding: auto;
+    max-width: 200px;
+    text-align: center;
+    display: block;
+  }
+
+  #header_image{
+
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+
+.benefits{
+
+  @extend .bg_gray_light;
+
+  .benefits_title{
+    font-size: 35px;
+    text-align: center;
+    font-weight: normal;
+    @extend .color_prim_blue;
+    margin-top: 50px;
+    margin-bottom:30px;
+
+
+  }
+
+  .card_benefits{
+    .card{
+      height: 425px;
+      padding-top: 10px;
+
+    }
+
+    .card-title{
+      font-size: 30px;
+      text-align: center;
+      font-weight: normal;
+    }
+
+    .card-text{
+      text-align: center;
+      font-size: 20px;
+      font-weight: lighter;
+
+    }
+
+    img{
+      width: 150px;
+      padding: auto;
+      margin: auto;
+    }
+  }
+}
+
+
+.platform{
+
+  @extend .bg_gray_light;
+  padding-top: 40px;
+  padding-bottom: 20px;
+
+  .platform_title{
+    font-size: 35px;
+    text-align: center;
+    font-weight: normal;
+    @extend .color_prim_blue;
+    margin-top:50px;
+    margin-bottom:30px;
+
+  }
+
+  .card_platform{
+    margin-bottom:30px;
+
+    .card{
+      padding-top: 30px;
+      padding-bottom: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+    }
+    .card-title{
+      font-size: 32px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .card-text{
+      @extend .color_sec_dark;
+      text-align: center;
+      font-size: 16px;
+      font-weight: lighter;
+    }
+
+    img{
+      width: 700px;
+      padding: auto;
+      margin: auto;
+    }
+  }
+}
+
+
+
+
+.support{
+
+  @extend .bg_gray_light;
+  padding-bottom: 40px;
+
+  .support_title{
+    font-size: 35px;
+    text-align: center;
+    font-weight: normal;
+    @extend .color_prim_blue;
+    margin-top: 50px;
+    margin-bottom:30px;
+  }
+
+  .card{
+    background: inherit;
+    border: inherit;
+    padding: 0;
+    margin: 0;
+    min-height: 475px;
+
+  }
+
+  .blue_rectangle{
+    padding: auto;
+    margin: auto;
+    width: 90%;
+    height:4px;
+    @extend .bg_prim_blue;
+  }
+
+  .card_support{
+    padding-top: 60px;
+
+    .card-title{
+      font-size: 30px;
+      text-align: center;
+      font-weight: normal;
+    }
+
+    .card-text{
+      text-align: center;
+      font-size: 20px;
+      font-weight: lighter;
+      padding-top: 20px;
+    }
+    img{
+      height: 175px;
+      padding: auto;
+      margin: auto;
+    }
+  }
+}
+
+
+
+.needs{
+
+  @extend .bg_white;
+  background-image: url("../../images/isibit_assets/isibit_11.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+
+  .needs_title{
+    font-size: 50px;
+    text-align: center;
+    font-weight: normal;
+    @extend .color_prim_blue;
+    margin-top: 50px;
+    margin-bottom:30px;
+    span{
+      @extend .color_sec_dark;
+    }
+  }
+
+  .needs_description{
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    @extend .color_sec_dark;
+    margin-top: 10px;
+    margin-bottom:30px;
+  }
+
+  .needs_tab{
+    display: inline-block;
+    font-size: 22px;
+    text-align: center;
+    font-weight: normal;
+    @extend .color_sec_dark;
+
+    img{
+      max-height: 30px;
+      margin-left: 5px;
+    }
+    padding: auto;
+    margin: auto;
+  }
+  .black_rectangle{
+    display: inline-block;
+    width:1px;
+    height:80px;
+    padding: 0;
+    margin: 0;
+    @extend .bg_gray_dark;
+  }
+
+  .card{
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    @extend .color_sec_dark;
+    margin-top: 30px;
+    margin-bottom:30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+
+.download{
+
+  margin-left: 20px;
+  margin-right: 0px;
+
+  @extend .bg_white;
+  background-image: url("../../images/isibit_assets/isibit_34.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  height: 800px;
+  .download_title{
+    font-size: 50px;
+    text-align: left;
+    font-weight: normal;
+    @extend .color_sec_dark;
+    span{
+      @extend .color_prim_blue;
+    }
+  }
+
+  .download_subtitle{
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+    @extend .color_prim_blue;
+  }
+
+  .description{
+    padding-top: 30px;
+    display: -webkit-inline-box;
+
+    .blue_rectangle{
+      width: 5px;
+      height:100px;
+      margin-right: 20px;
+      @extend .bg_prim_blue;
+    }
+    .txt_description{
+      font-size: 21px;
+      font-weight: lighter;
+      line-height: 34px;
+      text-align: justify;
+      padding-right: 30px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .download_btns{
+    padding-top: 30px;
+  }
+}
+
+footer{
+
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+  @extend .bg_prim_blue;
+  @extend .color_sec_white;
+
+  .row .col-12{
+    margin-top: 20px;
+  }
+
+  .footer_bold{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .footer_item{
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 20px;
+  }
+
+
+}
