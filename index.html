@@ -52,13 +52,13 @@
         <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-between " id="nav">
+        <div class="collapse navbar-collapse justify-content-between text-left " id="nav">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link text-black font-weight-bold px-5 " href="#">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-black font-weight-bold px-3" href="#">ABOUT US</a>
+                    <a class="nav-link text-black text-left font-weight-bold px-3" href="#">ABOUT US</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-black font-weight-bold px-3" href="#">CONTACT</a>
@@ -88,7 +88,7 @@
                         </div>
                     </div>
                     <div class="col-12 btn_beta_space">
-                        <button type="button" class="btn btn-primary btn-lg btn_beta ">
+                        <button type="button" class="btn btn-primary btn-lg btn_beta " data-toggle="modal" data-target="#exampleModalCenter">
                             Join Beta
                         </button>
                     </div>
@@ -317,10 +317,10 @@
         </div>
         <div class="col-12 col-sm-4">
             <span class="footer_bold"> Support</span> <br><br>
-            <span class="footer_item"> About</span><br>
-            <span class="footer_item"> Features</span><br>
-            <span class="footer_item"> Blog</span><br>
-            <span class="footer_item"> We are hiring!</span><br>
+            <span class="footer_item"> Termn & Conditions</span><br>
+            <span class="footer_item"> Privacy Policy</span><br>
+            <span class="footer_item"> FAQS </span><br>
+
 
         </div>
         <div class="col-12 col-sm-4">
@@ -332,6 +332,7 @@
 
     <div class="row">
         <div class="col-12 col-sm-4">
+            <br>
             <img src="images/isibit_assets/isibit_19.png" alt="">
         </div>
         <div class="col-12 col-sm-4">
@@ -343,6 +344,51 @@
     </div>
 </footer>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Join us!  Beta </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">First Name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Michael">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Last Name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jordan">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Company Name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="isibit inc">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Company Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@isibit.travel">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Select Country</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Mexico</option>
+                            <option>Colombia</option>
+                            <option>Brasil</option>
+                            <option>USA</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn_beta">Join!</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 

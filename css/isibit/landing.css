@@ -46,6 +46,9 @@ html, body {
   position: relative;
   padding-top: 50px; }
 
+.nav-link {
+  text-align: left; }
+
 header {
   padding-top: 10px; }
   header h1 {

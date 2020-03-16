@@ -9,3 +9,7 @@ $(window).scroll(function() {
         mn.removeClass(mns);
     }
 });
+
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+})
