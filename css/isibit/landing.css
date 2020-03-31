@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-.color_prim_blue, header h1, .benefits .benefits_title, .platform .platform_title, .support .support_title, .needs .needs_title, .download .download_title span, .download .download_subtitle {
+.color_prim_blue, .main_title, .txt_block_title, header h1, .benefits .benefits_title, .platform .platform_title, .support .support_title, .needs .needs_title, .download .download_title span, .download .download_subtitle {
   color: #4650FF; }
 
 .color_prim_purple {
@@ -11,7 +10,7 @@
 .color_sec_blue_bright {
   color: #1932FF; }
 
-.color_sec_dark, .platform .card_platform .card-text, .needs .needs_title span, .needs .needs_description, .needs .needs_tab, .needs .card, .download .download_title {
+.color_sec_dark, .txt_title, .txt_description, .platform .card_platform .card-text, .needs .needs_title span, .needs .needs_description, .needs .needs_tab, .needs .card, .download .download_title {
   color: #041E42; }
 
 .color_sec_white, footer {
@@ -32,28 +31,169 @@
 .bg_gray_soft {
   background-color: #e0e1e2; }
 
-.bg_gray_light, .navbar-light, .benefits, .platform, .support {
+.bg_gray_light, .navbar-light, .benefits, .benefits .card_benefits .card, .appfor, .platform, .support {
   background-color: #f7f7f7; }
 
-.bg_white, .needs, .download {
+.bg_white, header.bg_features, .needs, .download {
   background-color: #FFF; }
 
+/* poppins-200 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  src: url("../../fonts/poppins/poppins-v9-latin-200.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins ExtraLight"), local("Poppins-ExtraLight"), url("../../fonts/poppins/poppins-v9-latin-200.eot?#iefix") format("embedded-opentype"), url("../../fonts/poppins/poppins-v9-latin-200.svg#Poppins") format("svg");
+  /* Legacy iOS */ }
+/* poppins-300 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../fonts/poppins/poppins-v9-latin-300.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins Light"), local("Poppins-Light"), url("../../fonts/poppins/poppins-v9-latin-300.eot?#iefix") format("embedded-opentype"), url("../../fonts/poppins/poppins-v9-latin-300.woff2") format("woff2"), url("../../fonts/poppins/poppins-v9-latin-300.woff") format("woff"), url("../../fonts/poppins/poppins-v9-latin-300.ttf") format("truetype"), url("../../fonts/poppins/poppins-v9-latin-300.svg#Poppins") format("svg");
+  /* Legacy iOS */ }
+/* poppins-regular - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/poppins/poppins-v9-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins Regular"), local("Poppins-Regular"), url("../../fonts/poppins/poppins-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/poppins/poppins-v9-latin-regular.woff2") format("woff2"), url("../../fonts/poppins/poppins-v9-latin-regular.woff") format("woff"), url("../../fonts/poppins/poppins-v9-latin-regular.ttf") format("truetype"), url("../../fonts/poppins/poppins-v9-latin-regular.svg#Poppins") format("svg");
+  /* Legacy iOS */ }
+/* poppins-500 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../fonts/poppins/poppins-v9-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins Medium"), local("Poppins-Medium"), url("../../fonts/poppins/poppins-v9-latin-500.eot?#iefix") format("embedded-opentype"), url("../../fonts/poppins/poppins-v9-latin-500.woff2") format("woff2"), url("../../fonts/poppins/poppins-v9-latin-500.woff") format("woff"), url("../../fonts/poppins/poppins-v9-latin-500.ttf") format("truetype"), url("../../fonts/poppins/poppins-v9-latin-500.svg#Poppins") format("svg");
+  /* Legacy iOS */ }
+/* poppins-600 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url("../../fonts/poppins/poppins-v9-latin-600.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"), url("../../fonts/poppins/poppins-v9-latin-600.eot?#iefix") format("embedded-opentype"), url("../../fonts/poppins/poppins-v9-latin-600.svg#Poppins") format("svg");
+  /* Legacy iOS */ }
+/* poppins-700 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../fonts/poppins/poppins-v9-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins Bold"), local("Poppins-Bold"), url("../../fonts/poppins/poppins-v9-latin-700.eot?#iefix") format("embedded-opentype"), url("../../fonts/poppins/poppins-v9-latin-700.svg#Poppins") format("svg");
+  /* Legacy iOS */ }
+/* poppins-800 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  src: url("../../fonts/poppins/poppins-v9-latin-800.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins ExtraBold"), local("Poppins-ExtraBold"), url("../../fonts/poppins/poppins-v9-latin-800.eot?#iefix") format("embedded-opentype"), url("../../fonts/poppins/poppins-v9-latin-800.woff2") format("woff2"), url("../../fonts/poppins/poppins-v9-latin-800.woff") format("woff"), url("../../fonts/poppins/poppins-v9-latin-800.ttf") format("truetype"), url("../../fonts/poppins/poppins-v9-latin-800.svg#Poppins") format("svg");
+  /* Legacy iOS */ }
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url("../../fonts/avenir/AvenirLTStd-Medium.eot");
+  src: url("../../fonts/avenir/AvenirLTStd-Medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/avenir/AvenirLTStd-Medium.woff2") format("woff2"), url("../../fonts/avenir/AvenirLTStd-Medium.woff") format("woff"), url("../../fonts/avenir/AvenirLTStd-Medium.ttf") format("truetype"), url("../../fonts/avenir/AvenirLTStd-Medium.svg#AvenirLTStd-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url("../../fonts/avenir/AvenirLTStd-Book.eot");
+  src: url("../../fonts/avenir/AvenirLTStd-Book.eot?#iefix") format("embedded-opentype"), url("../../fonts/avenir/AvenirLTStd-Book.woff2") format("woff2"), url("../../fonts/avenir/AvenirLTStd-Book.woff") format("woff"), url("../../fonts/avenir/AvenirLTStd-Book.ttf") format("truetype"), url("../../fonts/avenir/AvenirLTStd-Book.svg#AvenirLTStd-Book") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url("../../fonts/avenir/AvenirLTStd-Roman.eot");
+  src: url("../../fonts/avenir/AvenirLTStd-Roman.eot?#iefix") format("embedded-opentype"), url("../../fonts/avenir/AvenirLTStd-Roman.woff2") format("woff2"), url("../../fonts/avenir/AvenirLTStd-Roman.woff") format("woff"), url("../../fonts/avenir/AvenirLTStd-Roman.ttf") format("truetype"), url("../../fonts/avenir/AvenirLTStd-Roman.svg#AvenirLTStd-Roman") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url("../../fonts/avenir/AvenirLTStd-Black.eot");
+  src: url("../../fonts/avenir/AvenirLTStd-Black.eot?#iefix") format("embedded-opentype"), url("../../fonts/avenir/AvenirLTStd-Black.woff2") format("woff2"), url("../../fonts/avenir/AvenirLTStd-Black.woff") format("woff"), url("../../fonts/avenir/AvenirLTStd-Black.ttf") format("truetype"), url("../../fonts/avenir/AvenirLTStd-Black.svg#AvenirLTStd-Black") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url("../../fonts/avenir/AvenirLTStd-Light.eot");
+  src: url("../../fonts/avenir/AvenirLTStd-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/avenir/AvenirLTStd-Light.woff2") format("woff2"), url("../../fonts/avenir/AvenirLTStd-Light.woff") format("woff"), url("../../fonts/avenir/AvenirLTStd-Light.ttf") format("truetype"), url("../../fonts/avenir/AvenirLTStd-Light.svg#AvenirLTStd-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+.font-poppins, html, body, .main_title, .txt_block_title, .txt_title, header .description, header .description .txt_description, .benefits .benefits_title, footer .footer_bold {
+  font-family: 'Poppins', sans-serif; }
+
+.font-avenir, .txt_description, footer .footer_item {
+  font-family: 'Avenir LT Std', sans-serif; }
+
 html, body {
-  font-family: 'Montserrat', sans-serif;
   width: 100% !important;
   height: 100% !important;
   margin: 0;
   position: relative;
   padding-top: 50px; }
 
+.row {
+  padding: 0;
+  margin: 0; }
+
+.borders {
+  border: 1px solid red; }
+
 .nav-link {
   text-align: left; }
+
+.nopadding {
+  padding: 5px; }
+
+.main_title {
+  font-size: 33pt;
+  line-height: 43pt;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  padding: auto; }
+
+.txt_block_title {
+  font-size: 30pt;
+  text-align: center;
+  font-weight: normal;
+  line-height: 39pt;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.txt_title {
+  font-size: 23pt;
+  text-align: center;
+  font-weight: normal;
+  line-height: 22pt; }
+
+.txt_description {
+  font-size: 12pt;
+  line-height: 22pt;
+  text-align: center;
+  font-weight: 300;
+  padding-top: 10px; }
+
+#btn_managers, #btn_teams, #btn_travelers {
+  cursor: pointer; }
 
 header {
   padding-top: 10px; }
   header h1 {
-    line-height: 50px;
-    font-weight: bolder; }
+    font-size: 41pt;
+    line-height: 51pt;
+    font-weight: 600; }
   header .description {
     padding-top: 5px;
     display: -webkit-inline-box; }
@@ -62,9 +202,9 @@ header {
       height: 100px;
       margin-right: 20px; }
     header .description .txt_description {
-      font-size: 21px;
+      font-size: 14pt;
       font-weight: lighter;
-      line-height: 34px;
+      line-height: 22pt;
       text-align: justify;
       padding-right: 30px;
       padding-bottom: 10px; }
@@ -73,7 +213,7 @@ header {
   header .btn_beta {
     color: #FFF;
     width: 250px;
-    border-radius: 20px;
+    border-radius: 35px;
     margin: auto;
     text-align: center;
     display: block; }
@@ -86,28 +226,48 @@ header {
   header #header_image {
     margin: 0;
     padding: 0; }
+  header.bg_features {
+    padding: auto;
+    margin: auto;
+    background-image: url("../../images/isibit_assets/header/features_header.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px; }
 
-.benefits .benefits_title {
-  font-size: 35px;
-  text-align: center;
-  font-weight: normal;
-  margin-top: 50px;
-  margin-bottom: 30px; }
-.benefits .card_benefits .card {
-  height: 425px;
-  padding-top: 10px; }
-.benefits .card_benefits .card-title {
-  font-size: 30px;
-  text-align: center;
-  font-weight: normal; }
-.benefits .card_benefits .card-text {
-  text-align: center;
-  font-size: 20px;
-  font-weight: lighter; }
-.benefits .card_benefits img {
-  width: 150px;
-  padding: auto;
-  margin: auto; }
+.benefits {
+  background-image: url("../../images/isibit_assets/backgrounds/l1_benefits.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .benefits .benefits_title {
+    font-size: 30pt;
+    line-height: 39pt;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-bottom: 30px; }
+  .benefits .card_benefits .card {
+    height: 425px;
+    padding-top: 10px;
+    border: none;
+    box-shadow: none; }
+  .benefits .card_benefits .card-title {
+    font-size: 23pt;
+    text-align: center;
+    font-weight: 400; }
+  .benefits .card_benefits .card-text {
+    font-size: 14pt;
+    text-align: center;
+    font-weight: lighter; }
+  .benefits .card_benefits img {
+    width: 150px;
+    padding: auto;
+    margin: auto; }
+
+.block_bg {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px; }
 
 .platform {
   padding-top: 40px;
@@ -124,14 +284,15 @@ header {
       padding-top: 30px;
       padding-bottom: 30px;
       padding-left: 20px;
-      padding-right: 20px; }
+      padding-right: 20px;
+      border-radius: 20px; }
     .platform .card_platform .card-title {
-      font-size: 32px;
+      font-size: 30pt;
       text-align: center;
       font-weight: bold; }
     .platform .card_platform .card-text {
+      font-size: 14pt;
       text-align: center;
-      font-size: 16px;
       font-weight: lighter; }
     .platform .card_platform img {
       width: 700px;
@@ -160,12 +321,14 @@ header {
   .support .card_support {
     padding-top: 60px; }
     .support .card_support .card-title {
-      font-size: 30px;
+      font-size: 23pt;
       text-align: center;
-      font-weight: normal; }
+      font-weight: normal;
+      line-height: 22pt; }
     .support .card_support .card-text {
+      font-size: 14pt;
+      line-height: 22pt;
       text-align: center;
-      font-size: 20px;
       font-weight: lighter;
       padding-top: 20px; }
     .support .card_support img {
@@ -174,14 +337,16 @@ header {
       margin: auto; }
 
 .needs {
-  background-image: url("../../images/isibit_assets/isibit_11.png");
+  background-image: url("../../images/isibit_assets/backgrounds/l1_needs.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 40px; }
+  padding-top: 100px;
+  height: 850px; }
   .needs .needs_title {
-    font-size: 50px;
+    font-size: 30pt;
     text-align: center;
     font-weight: normal;
+    line-height: 39pt;
     margin-top: 50px;
     margin-bottom: 30px; }
   .needs .needs_description {
@@ -207,7 +372,8 @@ header {
     padding: 0;
     margin: 0; }
   .needs .card {
-    font-size: 18px;
+    font-size: 14pt;
+    line-height: 22pt;
     text-align: center;
     font-weight: normal;
     margin-top: 30px;
@@ -216,19 +382,16 @@ header {
     padding-bottom: 50px; }
 
 .download {
-  margin-left: 20px;
-  margin-right: 0px;
-  background-image: url("../../images/isibit_assets/isibit_34.png");
+  background-image: url("../../images/isibit_assets/assets/isibit_app.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 40px;
   height: 800px; }
   .download .download_title {
-    font-size: 50px;
+    font-size: 41pt;
     text-align: left;
     font-weight: normal; }
   .download .download_subtitle {
-    font-size: 30px;
+    font-size: 22pt;
     text-align: center;
     font-weight: lighter; }
   .download .description {
@@ -239,9 +402,9 @@ header {
       height: 100px;
       margin-right: 20px; }
     .download .description .txt_description {
-      font-size: 21px;
+      font-size: 14pt;
       font-weight: lighter;
-      line-height: 34px;
+      line-height: 22pt;
       text-align: justify;
       padding-right: 30px;
       margin-bottom: 10px; }
@@ -254,13 +417,13 @@ footer {
   footer .row .col-12 {
     margin-top: 20px; }
   footer .footer_bold {
-    font-size: 24px;
+    font-size: 19pt;
     text-align: center;
-    font-weight: bolder; }
+    font-weight: bold; }
   footer .footer_item {
+    font-size: 17pt;
+    padding-top: 23pt;
     text-align: center;
-    font-size: 20px;
-    font-weight: lighter;
-    padding-top: 20px; }
+    font-weight: lighter; }
 
 /*# sourceMappingURL=landing.css.map */
