@@ -1,4 +1,4 @@
-.color_prim_blue, .main_title, .txt_block_title, header h1, .benefits .benefits_title, .appfor .txt_block_title, .platform .platform_title, .support .support_title, .needs .needs_title, .download .download_title span, .download .download_subtitle {
+.color_prim_blue, .main_title, .txt_block_title, .txt_blue, header h1, .benefits .benefits_title, .appfor .txt_block_title, .platform .platform_title, .support .support_title, .needs .needs_title, .download .download_title span, .download .download_subtitle {
   color: #4650FF; }
 
 .color_prim_purple {
@@ -10,13 +10,13 @@
 .color_sec_blue_bright {
   color: #1932FF; }
 
-.color_sec_dark, .txt_title, .txt_description, .platform .card_platform .card-text, .needs .needs_title span, .needs .needs_description, .needs .needs_tab, .needs .card, .download .download_title {
+.color_sec_dark, .txt_title, .txt_description, .txt_black, .platform .card_platform .card-text, .needs .needs_title span, .needs .needs_description, .needs .needs_tab, .needs .card, .download .download_title {
   color: #041E42; }
 
 .color_sec_white, footer {
   color: #FFF; }
 
-.bg_prim_blue, header .description .blue_rectangle, header .btn_beta, .support .blue_rectangle, .download .description .blue_rectangle, footer {
+.bg_prim_blue, .btn_beta, .btn_beta_white:hover, .btn_beta_white:focus, .btn_beta_white:active, .btn_beta_white.active, header .description .blue_rectangle, .support .blue_rectangle, .download .description .blue_rectangle, footer {
   background-color: #4650FF; }
 
 .bg_black {
@@ -31,10 +31,10 @@
 .bg_gray_soft {
   background-color: #e0e1e2; }
 
-.bg_gray_light, .navbar-light, .benefits, .benefits .card_benefits .card, .appfor, .platform, .support {
+.bg_gray_light, .navbar-light, .benefits, .benefits .card_benefits .card, .appfor, .platform, .support, .madein {
   background-color: #f7f7f7; }
 
-.bg_white, header.bg_features, .needs, .download {
+.bg_white, .btn_beta:hover, .btn_beta:focus, .btn_beta:active, .btn_beta.active, .btn_beta_white, header.bg_features, .needs, .download, .culture {
   background-color: #FFF; }
 
 /* poppins-200 - latin */
@@ -191,6 +191,30 @@ html, body {
 .block_separation_title {
   padding-bottom: 40px; }
 
+.btn_beta {
+  color: #FFF;
+  width: 250px;
+  border-radius: 35px;
+  margin: auto;
+  text-align: center;
+  display: block; }
+
+.btn_beta:hover, .btn_beta:focus, .btn_beta:active, .btn_beta.active {
+  color: #4650FF; }
+
+.btn_beta_white {
+  color: #4650FF;
+  width: 250px;
+  border-color: #4650FF;
+  border-radius: 35px;
+  margin: auto;
+  text-align: center;
+  display: block; }
+
+.btn_beta_white:hover, .btn_beta_white:focus, .btn_beta_white:active, .btn_beta_white.active {
+  color: #FFF;
+  border-color: #4650FF; }
+
 header {
   padding-top: 10px; }
   header h1 {
@@ -213,13 +237,6 @@ header {
       padding-bottom: 10px; }
   header .btn_beta_space {
     padding: 20px; }
-  header .btn_beta {
-    color: #FFF;
-    width: 250px;
-    border-radius: 35px;
-    margin: auto;
-    text-align: center;
-    display: block; }
   header .btns_apps {
     margin: auto;
     padding: auto;
@@ -421,6 +438,15 @@ header {
       margin-bottom: 10px; }
   .download .download_btns {
     padding-top: 30px; }
+
+.madein .made_image {
+  margin: auto;
+  pading: auto; }
+.madein #made_backgroud {
+  background-image: url("../../images/isibit_assets/assets/madein.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px; }
 
 footer {
   padding-bottom: 50px;

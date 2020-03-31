@@ -120,9 +120,6 @@ html, body{
   padding-bottom: 20px;
 }
 
-
-
-
 .txt_title{
   @extend .color_sec_dark;
   @extend .font-poppins;
@@ -141,8 +138,13 @@ html, body{
   text-align: center;
   font-weight: 300;
   padding-top:10px;
+}
 
-
+.txt_black{
+  @extend .color_sec_dark;
+}
+.txt_blue{
+  @extend .color_prim_blue;
 }
 
 // GENERAL CSS
@@ -154,6 +156,39 @@ html, body{
 .block_separation_title{
   padding-bottom: 40px;
 }
+
+.btn_beta{
+  @extend .bg_prim_blue;
+  color: $c_sec_white;
+  width: 250px;
+  border-radius: 35px;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+.btn_beta:hover, .btn_beta:focus, .btn_beta:active, .btn_beta.active {
+  @extend .bg_white;
+  color: $c_prim_blue;
+}
+
+.btn_beta_white{
+  @extend .bg_white;
+  color: $c_prim_blue;
+  width: 250px;
+  border-color: $c_prim_blue;
+  border-radius: 35px;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+.btn_beta_white:hover, .btn_beta_white:focus, .btn_beta_white:active, .btn_beta_white.active {
+  @extend .bg_prim_blue;
+  color: $c_sec_white;
+  border-color: $c_prim_blue;
+}
+
+
+
 
 
 // BACKGROUND BLOCKS DEFINITION.
@@ -193,15 +228,7 @@ header{
   .btn_beta_space{
     padding:20px;
   }
-  .btn_beta{
-    @extend .bg_prim_blue;
-    color: $c_sec_white;
-    width: 250px;
-    border-radius: 35px;
-    margin: auto;
-    text-align: center;
-    display: block;
-  }
+
 
   .btns_apps{
     margin: auto;
@@ -532,6 +559,28 @@ header{
     padding-top: 30px;
   }
 }
+
+.madein{
+  @extend .bg_gray_light;
+
+  .made_image{
+    margin: auto;
+    pading: auto;
+  }
+
+  #made_backgroud{
+    background-image: url("../../images/isibit_assets/assets/madein.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+  }
+}
+
+.culture{
+  @extend .bg_white;
+
+}
+
 
 footer{
 
