@@ -1,4 +1,4 @@
-.color_prim_blue, .main_title, .txt_block_title, header h1, .benefits .benefits_title, .platform .platform_title, .support .support_title, .needs .needs_title, .download .download_title span, .download .download_subtitle {
+.color_prim_blue, .main_title, .txt_block_title, header h1, .benefits .benefits_title, .appfor .txt_block_title, .platform .platform_title, .support .support_title, .needs .needs_title, .download .download_title span, .download .download_subtitle {
   color: #4650FF; }
 
 .color_prim_purple {
@@ -130,7 +130,7 @@
   src: url("../../fonts/avenir/AvenirLTStd-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/avenir/AvenirLTStd-Light.woff2") format("woff2"), url("../../fonts/avenir/AvenirLTStd-Light.woff") format("woff"), url("../../fonts/avenir/AvenirLTStd-Light.ttf") format("truetype"), url("../../fonts/avenir/AvenirLTStd-Light.svg#AvenirLTStd-Light") format("svg");
   font-weight: 300;
   font-style: normal; }
-.font-poppins, html, body, .main_title, .txt_block_title, .txt_title, header .description, header .description .txt_description, .benefits .benefits_title, footer .footer_bold {
+.font-poppins, html, body, .main_title, .txt_block_title, .txt_title, header .description, header .description .txt_description, .benefits .benefits_title, .appfor .txt_block_title, footer .footer_bold {
   font-family: 'Poppins', sans-serif; }
 
 .font-avenir, .txt_description, footer .footer_item {
@@ -187,6 +187,9 @@ html, body {
 
 #btn_managers, #btn_teams, #btn_travelers {
   cursor: pointer; }
+
+.block_separation_title {
+  padding-bottom: 40px; }
 
 header {
   padding-top: 10px; }
@@ -268,6 +271,14 @@ header {
   margin-right: 0px;
   padding-top: 40px;
   padding-bottom: 40px; }
+
+.appfor .card {
+  border-radius: 20px; }
+.appfor .txt_block_title {
+  font-size: 21pt;
+  text-align: center;
+  font-weight: bold;
+  line-height: 28pt; }
 
 .platform {
   padding-top: 40px;

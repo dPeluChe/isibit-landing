@@ -118,9 +118,10 @@ html, body{
   line-height: 39pt;
   padding-top: 20px;
   padding-bottom: 20px;
-
-
 }
+
+
+
 
 .txt_title{
   @extend .color_sec_dark;
@@ -129,8 +130,6 @@ html, body{
   text-align: center;
   font-weight: normal;
   line-height: 22pt;
-
-
 }
 
 
@@ -150,6 +149,10 @@ html, body{
 
 #btn_managers, #btn_teams, #btn_travelers{
   cursor: pointer;
+}
+
+.block_separation_title{
+  padding-bottom: 40px;
 }
 
 
@@ -287,6 +290,21 @@ header{
 
 .appfor{
   @extend .bg_gray_light;
+
+
+
+  .card{
+    border-radius: 20px;
+  }
+  .txt_block_title{
+    @extend .color_prim_blue;
+    @extend .font-poppins;
+    font-size: 21pt;
+    text-align: center;
+    font-weight: bold;
+    line-height: 28pt;
+  }
+
 }
 
 

@@ -22,7 +22,6 @@ $(document).ready(function() {
         hide_needs_tabs();
         name = $(this).attr('id');
         name = name.replace('btn','txt');
-
         $("#"+name).show(0);
     });
 });

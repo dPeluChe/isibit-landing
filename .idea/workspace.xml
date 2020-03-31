@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b1bf31d-5b32-4c80-bb4e-34fd4fdc8b73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/isibit/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/.sass-cache/dabd1ef217957bde86d1ab3212575696e2fb49a5/landing.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/.sass-cache/dabd1ef217957bde86d1ab3212575696e2fb49a5/landing.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/landing.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/landing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features.html" beforeDir="false" afterPath="$PROJECT_DIR$/features.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/isibit/landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/isibit/landing.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,20 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="724">
-              <caret line="63" column="113" selection-start-line="63" selection-start-column="113" selection-end-line="63" selection-end-column="113" />
+            <state relative-caret-position="144">
+              <caret line="328" lean-forward="true" selection-start-line="328" selection-end-line="374" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/isibit/landing.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="68" />
+            <state relative-caret-position="452">
+              <caret line="289" column="18" lean-forward="true" selection-start-line="289" selection-start-column="18" selection-end-line="289" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -45,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/isibit/landing.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="394" column="5" lean-forward="true" selection-start-line="394" selection-start-column="5" selection-end-line="394" selection-end-column="5" />
+            <state relative-caret-position="426">
+              <caret line="165" column="22" lean-forward="true" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -64,8 +60,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>main</find>
-      <find>--blue</find>
       <find>background</find>
       <find>$c_bg_black</find>
       <find>.css</find>
@@ -94,6 +88,8 @@
       <find>/fonts/poppins/poppins-v9-latin-200.ttf</find>
       <find>needs</find>
       <find>need</find>
+      <find>app</find>
+      <find>separa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,11 +101,11 @@
         <option value="$PROJECT_DIR$/css/bootstrap/bootstrap.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/css/isibit/landing.css" />
-        <option value="$PROJECT_DIR$/features.html" />
         <option value="$PROJECT_DIR$/css/isibit/fonts.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/isibit/landing.js" />
         <option value="$PROJECT_DIR$/css/isibit/landing.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/features.html" />
       </list>
     </option>
   </component>
@@ -145,25 +141,12 @@
             <path>
               <item name="isibit-landing" type="b2602c69:ProjectViewProjectNode" />
               <item name="isibit-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="isibit" type="462c0819:PsiDirectoryNode" />
-              <item name="landing.scss" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="isibit-landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="isibit-landing" type="462c0819:PsiDirectoryNode" />
               <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="isibit-landing" type="b2602c69:ProjectViewProjectNode" />
               <item name="isibit-landing" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="isibit-landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="isibit-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="isibit" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,12 +204,12 @@
       <workItem from="1585357922268" duration="641000" />
       <workItem from="1585358928037" duration="269000" />
       <workItem from="1585359479415" duration="92000" />
-      <workItem from="1585414902867" duration="3083000" />
+      <workItem from="1585414902867" duration="4576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48911000" />
+    <option name="totallyTimeSpent" value="50404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="0" />
@@ -236,7 +219,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14428647" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="GraphQL" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3299539" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3299539" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.15852535" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
@@ -271,13 +254,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/isibit/landing.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -294,22 +270,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/isibit/landing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="68" />
+        <state relative-caret-position="358">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/isibit/landing.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="394" column="5" lean-forward="true" selection-start-line="394" selection-start-column="5" selection-end-line="394" selection-end-column="5" />
+        <state relative-caret-position="426">
+          <caret line="165" column="22" lean-forward="true" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="63" column="113" selection-start-line="63" selection-start-column="113" selection-end-line="63" selection-end-column="113" />
+        <state relative-caret-position="144">
+          <caret line="328" lean-forward="true" selection-start-line="328" selection-end-line="374" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="289" column="18" lean-forward="true" selection-start-line="289" selection-start-column="18" selection-end-line="289" selection-end-column="18" />
         </state>
       </provider>
     </entry>
