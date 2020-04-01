@@ -76,7 +76,7 @@
     <header class="container-fluid block_bg bg_main">
     <div class=" " role="main">
         <div class="row">
-            <div class="col">
+            <div class="col col-lg-6">
                 <div class="row">
                     <div class="col-12">
                         <h1>
@@ -94,7 +94,7 @@
                         </div>
                     </div>
                     <div class="col-12 btn_beta_space">
-                        <button type="button" class="btn btn-primary btn-lg btn_beta " data-toggle="modal" data-target="#exampleModalCenter">
+                        <button type="button" class="btn btn-primary btn-lg btn_beta " data-toggle="modal" data-target="#modalform">
                             Join Beta
                         </button>
                     </div>
@@ -110,8 +110,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col d-none d-sm-block">
-                <img id="header_image"  class="img-fluid" src="images/isibit_assets/isibit_21.png" alt="isibit reunite">
+            <div class="col col-sm-12 col-lg-6 d-none d-sm-none d-md-none d-lg-block bg_header_img">
+                <br>
+                <!-- <img id="header_image"  class="img-fluid" src="images/isibit_assets/header/main_header.svg" alt="isibit reunite"> -->
             </div>
         </div>
     </div>
@@ -245,15 +246,16 @@
 <section class="block_bg needs container-fluid ">
     <div class="container">
         <div class="row">
-            <div class="col-12 ">
-                <div class="needs_title">
-                    <p class="txt_block_title">
+            <div class="col-12  ">
+                <div class="needs_card">
+                    <div class="needs_title">
+                        <p class="txt_block_title">
                         <span class="color_sec_dark">
                             isibit for
                             </span>
-                        everyone
-                    </p>
-                </div>
+                            everyone
+                        </p>
+                    </div>
                 <div class="txt_description">
                     We understand the needs of each of those involved in a business trip, from booking to management.
                 </div>
@@ -264,12 +266,12 @@
                                 For traveler managers
                                 <img class="img-fluid"  src="images/isibit_assets/icons/icon_manager.svg" alt="teams 1">
                             </div>
-                            <div class="black_rectangle"></div>
+                            <div class="black_rectangle d-none d-sm-block "></div>
                             <div class="needs_tab" id="btn_teams">
                                 For finance teams
                                 <img class="img-fluid"  src="images/isibit_assets/icons/icon_teams.svg" alt="teams 2">
                             </div>
-                            <div class="black_rectangle"></div>
+                            <div class="black_rectangle d-none d-sm-block"></div>
                             <div class=" needs_tab" id="btn_travelers">
                                 For travelers
                                 <img class="img-fluid"  src="images/isibit_assets/icons/icon_travelers.svg" alt="teams 3">
@@ -290,6 +292,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </div>
@@ -317,7 +320,7 @@
                 </div>
                 <div class="row download_btns">
                     <div class="col-12 btn_beta_space">
-                        <button type="button" class="btn btn-primary btn-lg btn_beta_white " data-toggle="modal" data-target="#exampleModalCenter">
+                        <button type="button" class="btn btn-primary btn-lg btn_beta_white " data-toggle="modal" data-target="#modalform">
                             Sign Up
                         </button>
                     </div>
@@ -332,6 +335,7 @@
         </div>
     </div>
 </section>
+
 
 </div>
 
@@ -383,47 +387,63 @@
     </div>
 </footer>
 
+
 <!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modalform" tabindex="-1" role="dialog" aria-labelledby="modalform" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Join us!  Beta </h5>
+                <div class="main_title" id="exampleModalLongTitle">Join us!  Beta </div>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">First Name</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Michael">
+                <form id="joinbeta">
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="name">First Name</label>
+                                <input type="email" class="form-control" id="name" placeholder="Michael">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="last_name">Last Name</label>
+                                <input type="email" class="form-control" id="last_name" placeholder="Jordan">
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="company">Company Name</label>
+                                <input type="email" class="form-control" id="company" placeholder="isibit inc">
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="email">Company Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="name@isibit.travel">
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="country">Select Country</label>
+                                <select class="form-control" id="country">
+                                    <option>Mexico</option>
+                                    <option>Colombia</option>
+                                    <option>Brasil</option>
+                                    <option>USA</option>
+                                </select>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Last Name</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jordan">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Company Name</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="isibit inc">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Company Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@isibit.travel">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect1">Select Country</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option>Mexico</option>
-                            <option>Colombia</option>
-                            <option>Brasil</option>
-                            <option>USA</option>
-                        </select>
-                    </div>
-                </form>
-            </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary btn_beta">Join!</button>
+                <button id="btn_submit" type="button" class="btn btn-primary btn_beta">Join Beta!</button>
+            </div>
+            </form>
             </div>
         </div>
     </div>

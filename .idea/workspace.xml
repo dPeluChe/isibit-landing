@@ -2,64 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b1bf31d-5b32-4c80-bb4e-34fd4fdc8b73" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/.sass-cache/dabd1ef217957bde86d1ab3212575696e2fb49a5/landing.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/.sass-cache/dabd1ef217957bde86d1ab3212575696e2fb49a5/landing.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/landing.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/landing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features.html" beforeDir="false" afterPath="$PROJECT_DIR$/features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/isibit_assets/backgrounds/l1_benefits.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/isibit_assets/backgrounds/l1_needs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/isibit_assets/header/main_header.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/isibit_assets/header/main_header.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/isibit/landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/isibit/landing.js" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="320" column="35" selection-start-line="320" selection-start-column="35" selection-end-line="320" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aboutus.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="132" column="56" selection-start-line="132" selection-start-column="56" selection-end-line="132" selection-end-column="56" />
-              <folding>
-                <element signature="e#5137#5143#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/isibit/landing.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="168" column="70" selection-start-line="168" selection-start-column="70" selection-end-line="168" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,102 +30,14 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>.css</find>
-      <find>header</find>
-      <find>color_prim_blue</find>
-      <find>bg_prim_blue</find>
-      <find>card_support</find>
-      <find>color_sec_dark</find>
-      <find>border</find>
-      <find>btn_beta</find>
-      <find>save</find>
-      <find>beta</find>
-      <find>we are ob</find>
-      <find>benefits_title</find>
-      <find>btns_apps</find>
-      <find>features</find>
-      <find>all</find>
-      <find>borders</find>
-      <find>border:</find>
-      <find>all-</find>
-      <find>/poppins-v9-latin-600.woff2</find>
-      <find>/poppins-v9-latin-200.woff2</find>
-      <find>/fonts/poppins/poppins-v9-latin-700.woff</find>
-      <find>/fonts/poppins/poppins-v9-latin-600.woff</find>
-      <find>/fonts/poppins/poppins-v9-latin-600.ttf</find>
-      <find>/fonts/poppins/poppins-v9-latin-200.ttf</find>
-      <find>needs</find>
-      <find>need</find>
-      <find>app</find>
-      <find>separa</find>
-      <find>made</find>
-      <find>download_btns</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/css/bootstrap/bootstrap.css" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/css/isibit/landing.css" />
-        <option value="$PROJECT_DIR$/css/isibit/fonts.scss" />
-        <option value="$PROJECT_DIR$/js/isibit/landing.js" />
-        <option value="$PROJECT_DIR$/features.html" />
-        <option value="$PROJECT_DIR$/aboutus.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/isibit/landing.scss" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1177" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="isibit-landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="isibit-landing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="isibit-landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="isibit-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="isibit-landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="isibit-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="isibit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="isibit-landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="isibit-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="isibit-landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="isibit-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1ZvAe9e2fqOiX2aOdqQNOTZzFl1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -182,18 +54,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -217,122 +77,37 @@
       <workItem from="1585357922268" duration="641000" />
       <workItem from="1585358928037" duration="269000" />
       <workItem from="1585359479415" duration="92000" />
-      <workItem from="1585414902867" duration="6193000" />
+      <workItem from="1585414902867" duration="7781000" />
+      <workItem from="1585696620112" duration="228000" />
+      <workItem from="1585708461771" duration="645000" />
+      <workItem from="1585709290887" duration="21000" />
+      <workItem from="1585709321173" duration="10679000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52021000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1177" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14428647" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="GraphQL" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3299539" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.15852535" />
-      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.3299539" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/bootstrap/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example.html" />
-    <entry file="file://$PROJECT_DIR$/css/isibit/fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/isibit/landing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/isibit/landing.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="421" column="26" selection-start-line="421" selection-start-column="13" selection-end-line="421" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aboutus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="132" column="56" selection-start-line="132" selection-start-column="56" selection-end-line="132" selection-end-column="56" />
-          <folding>
-            <element signature="e#5137#5143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="320" column="35" selection-start-line="320" selection-start-column="35" selection-end-line="320" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/isibit/landing.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="168" column="70" selection-start-line="168" selection-start-column="70" selection-end-line="168" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="648" y="346" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585709305876">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="648" y="346" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.1177/-1920.23.1920.1177/1920.23.1680.1027@0.23.1920.1177" timestamp="1585709305876" />
+    <state x="542" y="303" key="EditFileWatcherDialog" timestamp="1585709410616">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="542" y="303" key="EditFileWatcherDialog/0.23.1920.1177/-1920.23.1920.1177/1920.23.1680.1027@0.23.1920.1177" timestamp="1585709410616" />
+    <state x="469" y="250" key="SettingsEditor" timestamp="1585709411656">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="469" y="250" key="SettingsEditor/0.23.1920.1177/-1920.23.1920.1177/1920.23.1680.1027@0.23.1920.1177" timestamp="1585709411656" />
+    <state x="812" y="535" key="VCS.ChangelistChooser" timestamp="1585718796881">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="812" y="535" key="VCS.ChangelistChooser/0.23.1920.1177/-1920.23.1920.1177/1920.23.1680.1027@0.23.1920.1177" timestamp="1585718796881" />
+    <state x="559" y="276" key="scopes" timestamp="1585709409382">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="559" y="276" key="scopes/0.23.1920.1177/-1920.23.1920.1177/1920.23.1680.1027@0.23.1920.1177" timestamp="1585709409382" />
   </component>
 </project>

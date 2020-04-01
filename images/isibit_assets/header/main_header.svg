@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="740.472" height="497.4" viewBox="0 0 740.472 497.4">
+<svg id="Grupo_2189" data-name="Grupo 2189" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200.387" height="676" viewBox="0 0 1200.387 676">
   <defs>
     <radialGradient id="radial-gradient" cx="0.953" cy="-13.949" r="33.368" gradientTransform="matrix(-0.028, 0, 0, 1, 12.524, 0)" gradientUnits="objectBoundingBox">
       <stop offset="0.002" stop-color="#cdf7f1"/>
       <stop offset="1" stop-color="#5dcfca"/>
     </radialGradient>
   </defs>
-  <g id="Grupo_1398" data-name="Grupo 1398" transform="translate(0 0)">
-    <path id="Trazado_1405" data-name="Trazado 1405" d="M3529.463,622.356,2823.48,799.2a45.545,45.545,0,0,0-33.114,55.246l29.857,119.2L3529.463,925.2Z" transform="translate(-2788.991 -476.242)" fill="#4650ff"/>
+  <g id="Grupo_2188" data-name="Grupo 2188" transform="translate(459.915 178.601)">
+    <path id="Trazado_1405" data-name="Trazado 1405" d="M3529.463,622.356,2823.48,799.2a45.545,45.545,0,0,0-33.114,55.246l29.857,119.2,709.239-.265Z" transform="translate(-2788.991 -476.242)" fill="#4650ff"/>
     <g id="Grupo_1291" data-name="Grupo 1291" transform="translate(20.105 0)">
       <g id="Grupo_1238" data-name="Grupo 1238" transform="translate(501.721 187.746)">
         <g id="Grupo_1233" data-name="Grupo 1233" transform="translate(83.944 17.971)">
@@ -325,4 +325,5 @@
       </g>
     </g>
   </g>
+  <rect id="Rectángulo_2540" data-name="Rectángulo 2540" width="1200" height="676" fill="none"/>
 </svg>

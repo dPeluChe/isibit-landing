@@ -195,12 +195,13 @@ html, body{
 
 header{
   padding-top: 10px;
+
+
   h1{
     @extend .color_prim_blue;
     font-size:41pt;
     line-height: 51pt;
     font-weight: 600;
-
   }
 
   .description{
@@ -239,31 +240,54 @@ header{
   }
 
   #header_image{
-    margin: 0;
+    width: 100%;
     padding: 0;
+    margin: 0;
+    @extend .borders;
   }
+
+  .bg_header_img{
+    padding: 0;
+    margin: 0;
+    background-image: url("../../images/isibit_assets/header/main_header.svg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-position-x: 0px;
+  }
+
 
   &.features{
   }
 
   &.bg_features{
+     padding: auto;
+     margin: auto;
+     background-image: url("../../images/isibit_assets/backgrounds/l2/b1.png") ;
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 600px;
+     @extend .bg_white;
+   }
+
+  &.bg_aboutus{
     padding: auto;
     margin: auto;
-    background-image: url("../../images/isibit_assets/header/features_header.svg") ;
+    background-image: url("../../images/isibit_assets/backgrounds/l3/b1.png") ;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    min-height: 500px;
     @extend .bg_white;
-
   }
 }
 
 
 .benefits{
-  background-image: url("../../images/isibit_assets/backgrounds/l1_benefits.png") ;
+  background-image: url("../../images/isibit_assets/backgrounds/l1/b1.png") ;
   background-repeat: no-repeat;
   background-size: cover;
   @extend .bg_gray_light;
+  min-height: 800px;
 
   .benefits_title{
     font-size: 30pt;
@@ -313,12 +337,17 @@ header{
   margin-right: 0px;
   padding-top: 40px;
   padding-bottom: 40px;
+  &.bg_main{
+    padding-bottom: 0px;
+  }
 }
 
 .appfor{
   @extend .bg_gray_light;
-
-
+  background-image: url("../../images/isibit_assets/backgrounds/l2/b2.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 950px;
 
   .card{
     border-radius: 20px;
@@ -331,12 +360,19 @@ header{
     font-weight: bold;
     line-height: 28pt;
   }
+}
+
+.webplatform{
+  background-image: url("../../images/isibit_assets/backgrounds/l2/b3.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
 
 }
 
 
 .platform{
-
+  min-height: 800px;
   @extend .bg_gray_light;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -386,6 +422,10 @@ header{
 
 
 .support{
+  background-image: url("../../images/isibit_assets/backgrounds/l1/b2.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 800px;
 
   @extend .bg_gray_light;
   padding-bottom: 40px;
@@ -444,12 +484,18 @@ header{
 
 
 .needs{
+  background-image: url("../../images/isibit_assets/backgrounds/l1/b3.png") ;
   @extend .bg_white;
-  background-image: url("../../images/isibit_assets/backgrounds/l1_needs.png") ;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 100px;
-  height: 850px;
+  min-height: 850px;
+
+  .needs_card{
+    background: rgba(255,255,255,0.4);
+    border-radius: 25px;
+    padding-bottom: 70px;
+  }
 
 
   .needs_title{
@@ -479,6 +525,7 @@ header{
     font-size: 22px;
     text-align: center;
     font-weight: normal;
+    padding: 15px;
     @extend .color_sec_dark;
 
     img{
@@ -513,10 +560,11 @@ header{
 
 .download{
   @extend .bg_white;
-  background-image: url("../../images/isibit_assets/assets/isibit_app.png");
+  #background-image: url("../../images/isibit_assets/assets/isibit_app.png");
+  background-image: url("../../images/isibit_assets/backgrounds/l1/b4.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
+  min-height: 650px;
 
   .download_title{
     font-size: 41pt;
@@ -578,7 +626,10 @@ header{
 
 .culture{
   @extend .bg_white;
-
+  background-image: url("../../images/isibit_assets/backgrounds/l3/b2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 650px;
 }
 
 
@@ -609,4 +660,15 @@ footer{
     font-weight: lighter;
   }
 
+}
+
+
+
+.modal-content{
+  border-radius: 25px;
+
+  .form-control{
+    border: 0;
+    border-bottom: 1px solid $c_prim_purple;
+  }
 }
