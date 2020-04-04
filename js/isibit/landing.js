@@ -11,12 +11,20 @@ $(window).scroll(function() {
 });
 
 $('#submitmodal').on('shown.bs.modal', function () {
-    $('#name').trigger('focus')
+    $('#firstname').trigger('focus')
 });
+
+const brw = browser();
+const brw_os = detect_os();
+const vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+//const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 
 $(document).ready(function() {
     hide_needs_tabs();
     $("#txt_managers").show();
+
+    $("#joinbeta").validate();
+
 
     $("#btn_managers, #btn_teams, #btn_travelers").click(function(){
         hide_needs_tabs();
@@ -25,13 +33,11 @@ $(document).ready(function() {
         $("#"+name).show(0);
     });
 
-    $("#joinbeta").submit(function(event) {
-        var ajaxRequest;
-        console.log("holoo2");
+    $( ".btn_beta, .btn_beta_white").click(function() {
+        cleanForm();
     });
 
-    $('#btn_submit').click(function () {
-
+    $( "#btn_submit").click(function() {
         let form_name = $('#name').val();
         let formlast_name = $('#last_name').val();
         let form_email = $('#email').val();
@@ -44,59 +50,54 @@ $(document).ready(function() {
             company_email: form_email,
             company: form_company,
             country: form_country,
+            mobileorweb: brw+"w"+vw,
+            os: brw_os
         };
 
+        //console.log (jsonData);
+        sendData(JSON.stringify(data));
+        $("#thanks_footer").show(500);
+
     });
-        /*
-                console.log(data);
-
-                var xhr = new XMLHttpRequest();
-                xhr.open('POST', 'https://script.google.com/macros/s/AKfycbz5oaeGtQF_KIFNHs2CcqxUTUQ8EYEbzE13_NgK-hk52N0DrSF5/exec', true);
-                xhr.withCredentials = true;
-                xhr.onreadystatechange = function() {
-                    if (xhr.readyState === 2) {// do something}
-                        console.log("ready");
-                    }
-                    xhr.setRequestHeader('Content-Type', 'application/json');
-                    xhr.send(data);
-
-                $.ajax({
-                        //method: 'POST',
-                        type: "POST",
-                        //jsonp: "callback",
-                        //crossdomain: true,
-                        contentType: 'plain/text',
-                        dataType: 'json',
-                        xhrFields: {
-                            withCredentials: true
-                        },
-                        //crossOrigin: true,
-                        //async: true,
-                        data:JSON.stringify(data),
-                        url: "https://script.google.com/macros/s/AKfycbz5oaeGtQF_KIFNHs2CcqxUTUQ8EYEbzE13_NgK-hk52N0DrSF5/exec",
-                        headers: { 'Access-Control-Allow-Origin': '*' }, //add this line
-                        /*headers: {
-                            'Access-Control-Allow-Methods': '*',
-                            "Access-Control-Allow-Credentials": true,
-                            "Access-Control-Allow-Headers" : "Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type, Accept, Authorization",
-                            "Access-Control-Allow-Origin": "*",
-                            "Control-Allow-Origin": "*",
-                            "cache-control": "no-cache",
-                            'Content-Type': 'application/javascript',
-                            //'Content-Type': 'application/x-www-form-urlencoded',
-                            'Accept': 'application/json',
-                        },
-                    success: function(response){
-                        console.log("Respond was: ", response);
-                    },
-                    error: function(request, status, error) {
-                        console.log("There was an error: ", error);
-                    }
-                });
-            */
-
 });
 
+function cleanForm(){
+    $('#name').val(" ");
+    $('#last_name').val(" ");
+    $('#email').val(" ");
+    $('#company').val(" ");
+}
+
+
+function sendData(jsonData){
+    let googleUrl= "https://script.google.com/macros/s/AKfycbz5oaeGtQF_KIFNHs2CcqxUTUQ8EYEbzE13_NgK-hk52N0DrSF5/exec";
+    console.log(jsonData);
+
+    /*
+    var request = $.ajax({
+        url: googleUrl,
+        type:"POST",
+        dataType: 'json',
+        data: jsonData
+    });
+
+    request.done(function (response, textStatus, jqXHR){
+        console.log("Encuesta guardada correctamente!");
+    });
+
+    request.fail(function (jqXHR, textStatus, errorThrown){
+        // Log the error to the console
+        console.log(
+            "Error: "+
+            textStatus, errorThrown
+        );
+    });
+    request.always(function () {
+    });
+    event.preventDefault();
+    */
+
+}
 
 function hide_needs_tabs(){
     $("#txt_managers").hide();

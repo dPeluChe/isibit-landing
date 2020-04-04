@@ -104,7 +104,7 @@ html, body{
   font-size: 44px;
   line-height: 43pt;
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
   margin: auto;
   padding:auto;
 }
@@ -133,7 +133,7 @@ html, body{
 .txt_description{
   @extend .color_sec_dark;
   @extend .font-avenir;
-  font-size: 12pt;
+  font-size: 16px;
   line-height: 22pt;
   text-align: center;
   font-weight: 300;
@@ -215,15 +215,7 @@ header{
       margin-right: 20px;
       @extend .bg_prim_blue;
     }
-    .txt_description{
-      font-size: 14pt;
-      font-weight: lighter;
-      line-height: 22pt;
-      text-align: justify;
-      padding-right: 30px;
-      padding-bottom: 10px;
-      @extend .font-poppins;
-    }
+
   }
 
   .btn_beta_space{

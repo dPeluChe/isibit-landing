@@ -21,11 +21,15 @@
     <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+
+
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
             integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
             crossorigin="anonymous"></script>
 
+    <script src="js/isibit/browser.js"></script>
     <script src="js/isibit/landing.js"></script>
 
     <!-- Favicons -->
@@ -94,7 +98,7 @@
                         </div>
                     </div>
                     <div class="col-12 btn_beta_space">
-                        <button type="button" class="btn btn-primary btn-lg btn_beta " data-toggle="modal" data-target="#modalform">
+                        <button type="button" class="btn btn-primary btn-lg btn_beta " data-toggle="modal" data-target="#beta_modal">
                             Join Beta
                         </button>
                     </div>
@@ -111,8 +115,8 @@
                 </div>
             </div>
             <!-- <div class="col col-sm-12 col-lg-6 d-none d-sm-none d-md-none d-lg-block borders ">-->
-            <div class=" d-none d-md-none d-lg-block  col-lg-8 ">
-                <div clas="text">
+            <div class=" d-none d-md-none d-lg-block  col-lg-8">
+                <div clas="">
                     <img class="" src="images/isibit_assets/header/main_header.svg" alt="isibit reunite">
                 </div>
             </div>
@@ -322,7 +326,7 @@
                 </div>
                 <div class="row download_btns">
                     <div class="col-12 btn_beta_space">
-                        <button type="button" class="btn btn-primary btn-lg btn_beta_white " data-toggle="modal" data-target="#modalform">
+                        <button type="button" class="btn btn-primary btn-lg btn_beta_white " data-toggle="modal" data-target="#beta_modal">
                             Sign Up
                         </button>
                     </div>
@@ -391,7 +395,7 @@
 
 
 <!-- Modal -->
-<div class="modal fade" id="modalform" tabindex="-1" role="dialog" aria-labelledby="modalform" aria-hidden="true">
+<div class="modal fade" id="beta_modal" tabindex="-1" role="dialog" aria-labelledby="beta_modal" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -401,25 +405,25 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form id="joinbeta">
+                <form id="joinbeta" action="" >
                     <div class="row">
                         <div class="col">
                             <div class="form-group">
-                                <label for="name">First Name</label>
-                                <input type="email" class="form-control" id="name" placeholder="Michael">
+                                <label for="firstname">First Name</label>
+                                <input type="text" minlength="3" class="form-control" id="firstname" name="firstname" placeholder="First name" required>
                             </div>
                         </div>
                         <div class="col">
                             <div class="form-group">
-                                <label for="last_name">Last Name</label>
-                                <input type="email" class="form-control" id="last_name" placeholder="Jordan">
+                                <label for="lastname">Last Name</label>
+                                <input type="text" class="form-control" id="lastname" placeholder="Jordan">
                             </div>
                         </div>
                         <div class="w-100"></div>
                         <div class="col">
                             <div class="form-group">
                                 <label for="company">Company Name</label>
-                                <input type="email" class="form-control" id="company" placeholder="isibit inc">
+                                <input type="text" class="form-control" id="company" placeholder="isibit inc">
                             </div>
                         </div>
                         <div class="w-100"></div>

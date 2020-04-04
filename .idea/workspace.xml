@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b1bf31d-5b32-4c80-bb4e-34fd4fdc8b73" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/formvalidator/jquery.validate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/.sass-cache/dabd1ef217957bde86d1ab3212575696e2fb49a5/fonts.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/.sass-cache/dabd1ef217957bde86d1ab3212575696e2fb49a5/fonts.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/.sass-cache/dabd1ef217957bde86d1ab3212575696e2fb49a5/landing.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/.sass-cache/dabd1ef217957bde86d1ab3212575696e2fb49a5/landing.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/fonts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/landing.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/landing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features.html" beforeDir="false" afterPath="$PROJECT_DIR$/features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/isibit_assets/header/main_header.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/isibit_assets/header/main_header.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/isibit/landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/isibit/landing.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,9 @@
       <workItem from="1585696620112" duration="228000" />
       <workItem from="1585708461771" duration="645000" />
       <workItem from="1585709290887" duration="21000" />
-      <workItem from="1585709321173" duration="14786000" />
+      <workItem from="1585709321173" duration="17337000" />
+      <workItem from="1586033826879" duration="994000" />
+      <workItem from="1586035175649" duration="1588000" />
     </task>
     <servers />
   </component>
@@ -87,10 +88,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="672" y="421" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586035278608">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="672" y="421" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1177/-1920.23.1920.1177/1920.23.1680.1027@0.23.1920.1177" timestamp="1586035278608" />
     <state x="648" y="346" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585709305876">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="648" y="346" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.1177/-1920.23.1920.1177/1920.23.1680.1027@0.23.1920.1177" timestamp="1585709305876" />
+    <state x="698" y="365" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586035612275">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="698" y="365" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1177/-1920.23.1920.1177/1920.23.1680.1027@0.23.1920.1177" timestamp="1586035612275" />
     <state x="542" y="303" key="EditFileWatcherDialog" timestamp="1585709410616">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
