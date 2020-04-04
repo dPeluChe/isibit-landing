@@ -101,10 +101,10 @@ html, body{
 .main_title{
   @extend .color_prim_blue;
   @extend .font-poppins;
-  font-size: 33pt;
+  font-size: 44px;
   line-height: 43pt;
   text-align: center;
-  font-weight: bold;
+  font-weight: 500;
   margin: auto;
   padding:auto;
 }
@@ -114,7 +114,7 @@ html, body{
   @extend .font-poppins;
   font-size: 30pt;
   text-align: center;
-  font-weight: normal;
+  font-weight: 500;
   line-height: 39pt;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -160,7 +160,7 @@ html, body{
 .btn_beta{
   @extend .bg_prim_blue;
   color: $c_sec_white;
-  width: 250px;
+  width: 100%;
   border-radius: 35px;
   margin: auto;
   text-align: center;
@@ -174,7 +174,7 @@ html, body{
 .btn_beta_white{
   @extend .bg_white;
   color: $c_prim_blue;
-  width: 250px;
+  width: 100%;
   border-color: $c_prim_blue;
   border-radius: 35px;
   margin: auto;
@@ -239,11 +239,10 @@ header{
     display: block;
   }
 
-  #header_image{
-    width: 100%;
+  .header_image{
     padding: 0;
     margin: 0;
-    @extend .borders;
+    text-align: left;
   }
 
   .bg_header_img{
@@ -276,7 +275,7 @@ header{
     background-image: url("../../images/isibit_assets/backgrounds/l3/b1.png") ;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
+    min-height: 550px;
     @extend .bg_white;
   }
 }
@@ -596,8 +595,9 @@ header{
       font-size: 14pt;
       font-weight: lighter;
       line-height: 22pt;
-      text-align: justify;
-      padding-right: 30px;
+      text-align: center;
+      padding-right: 40px;
+      padding-left: 40px;
       margin-bottom: 10px;
     }
   }

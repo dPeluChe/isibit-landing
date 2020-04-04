@@ -71,7 +71,7 @@
   font-weight: 500;
   src: url("../../fonts/poppins/poppins-v9-latin-500.eot");
   /* IE9 Compat Modes */
-  src: local("Poppins Medium"), local("Poppins-Medium"), url("../../fonts/poppins/poppins-v9-latin-500.eot?#iefix") format("embedded-opentype"), url("../../fonts/poppins/poppins-v9-latin-500.woff2") format("woff2"), url("../../fonts/poppins/poppins-v9-latin-500.woff") format("woff"), url("../../fonts/poppins/poppins-v9-latin-500.ttf") format("truetype"), url("../../fonts/poppins/poppins-v9-latin-500.svg#Poppins") format("svg");
+  src: local("Poppins Medium"), local("Poppins-Medium"), url("../../fonts/poppins/poppins-v9-latin-500.eot?#iefix") format("embedded-opentype"), url("../../fonts/poppins/poppins-v9-latin-500.woff2") format("woff2"), url("../../fonts/poppins/poppins-v9-latin-500.woff") format("woff"), url("../../fonts/Poppins-Medium.ttf") format("truetype"), url("../../fonts/poppins/poppins-v9-latin-500.svg#Poppins") format("svg");
   /* Legacy iOS */ }
 /* poppins-600 - latin */
 @font-face {
@@ -103,7 +103,7 @@
 @font-face {
   font-family: 'Avenir LT Std';
   src: url("../../fonts/avenir/AvenirLTStd-Medium.eot");
-  src: url("../../fonts/avenir/AvenirLTStd-Medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/avenir/AvenirLTStd-Medium.woff2") format("woff2"), url("../../fonts/avenir/AvenirLTStd-Medium.woff") format("woff"), url("../../fonts/avenir/AvenirLTStd-Medium.ttf") format("truetype"), url("../../fonts/avenir/AvenirLTStd-Medium.svg#AvenirLTStd-Medium") format("svg");
+  src: url("../../fonts/avenir/AvenirLTStd-Medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/avenir/AvenirLTStd-Medium.woff2") format("woff2"), url("../../fonts/avenir/AvenirLTStd-Medium.woff") format("woff"), url("../../fonts/AvenirLTStd-Medium.ttf") format("truetype"), url("../../fonts/avenir/AvenirLTStd-Medium.svg#AvenirLTStd-Medium") format("svg");
   font-weight: 500;
   font-style: normal; }
 @font-face {
@@ -147,7 +147,7 @@ html, body {
   padding: 0;
   margin: 0; }
 
-.borders, header #header_image {
+.borders {
   border: 1px solid red; }
 
 .nav-link {
@@ -157,17 +157,17 @@ html, body {
   padding: 5px; }
 
 .main_title {
-  font-size: 33pt;
+  font-size: 44px;
   line-height: 43pt;
   text-align: center;
-  font-weight: bold;
+  font-weight: 500;
   margin: auto;
   padding: auto; }
 
 .txt_block_title {
   font-size: 30pt;
   text-align: center;
-  font-weight: normal;
+  font-weight: 500;
   line-height: 39pt;
   padding-top: 20px;
   padding-bottom: 20px; }
@@ -193,7 +193,7 @@ html, body {
 
 .btn_beta {
   color: #FFF;
-  width: 250px;
+  width: 100%;
   border-radius: 35px;
   margin: auto;
   text-align: center;
@@ -204,7 +204,7 @@ html, body {
 
 .btn_beta_white {
   color: #4650FF;
-  width: 250px;
+  width: 100%;
   border-color: #4650FF;
   border-radius: 35px;
   margin: auto;
@@ -243,10 +243,10 @@ header {
     max-width: 200px;
     text-align: center;
     display: block; }
-  header #header_image {
-    width: 100%;
+  header .header_image {
     padding: 0;
-    margin: 0; }
+    margin: 0;
+    text-align: left; }
   header .bg_header_img {
     padding: 0;
     margin: 0;
@@ -268,7 +268,7 @@ header {
     background-image: url("../../images/isibit_assets/backgrounds/l3/b1.png");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px; }
+    min-height: 550px; }
 
 .benefits {
   background-image: url("../../images/isibit_assets/backgrounds/l1/b1.png");
@@ -474,8 +474,9 @@ header {
       font-size: 14pt;
       font-weight: lighter;
       line-height: 22pt;
-      text-align: justify;
-      padding-right: 30px;
+      text-align: center;
+      padding-right: 40px;
+      padding-left: 40px;
       margin-bottom: 10px; }
   .download .download_btns {
     padding-top: 30px; }

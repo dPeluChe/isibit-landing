@@ -3,10 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="2b1bf31d-5b32-4c80-bb4e-34fd4fdc8b73" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/isibit/.sass-cache/dabd1ef217957bde86d1ab3212575696e2fb49a5/fonts.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/.sass-cache/dabd1ef217957bde86d1ab3212575696e2fb49a5/fonts.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/.sass-cache/dabd1ef217957bde86d1ab3212575696e2fb49a5/landing.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/.sass-cache/dabd1ef217957bde86d1ab3212575696e2fb49a5/landing.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/isibit/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/isibit/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/landing.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/landing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/isibit/landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/isibit/landing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features.html" beforeDir="false" afterPath="$PROJECT_DIR$/features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/isibit_assets/header/main_header.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/isibit_assets/header/main_header.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +79,7 @@
       <workItem from="1585696620112" duration="228000" />
       <workItem from="1585708461771" duration="645000" />
       <workItem from="1585709290887" duration="21000" />
-      <workItem from="1585709321173" duration="11056000" />
+      <workItem from="1585709321173" duration="14786000" />
     </task>
     <servers />
   </component>
