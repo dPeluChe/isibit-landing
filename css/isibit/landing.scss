@@ -133,7 +133,7 @@ html, body{
 .txt_description{
   @extend .color_sec_dark;
   @extend .font-avenir;
-  font-size: 16px;
+  font-size: 14pt;
   line-height: 22pt;
   text-align: center;
   font-weight: 300;
@@ -187,7 +187,10 @@ html, body{
   border-color: $c_prim_blue;
 }
 
-
+label.error{
+  color: red;
+  font-size: 10px;
+}
 
 
 
@@ -232,9 +235,7 @@ header{
   }
 
   .header_image{
-    padding: 0;
-    margin: 0;
-    text-align: left;
+    @extend .borders;
   }
 
   .bg_header_img{

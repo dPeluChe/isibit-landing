@@ -147,7 +147,7 @@ html, body {
   padding: 0;
   margin: 0; }
 
-.borders {
+.borders, header .header_image {
   border: 1px solid red; }
 
 .nav-link {
@@ -179,7 +179,7 @@ html, body {
   line-height: 22pt; }
 
 .txt_description {
-  font-size: 16px;
+  font-size: 14pt;
   line-height: 22pt;
   text-align: center;
   font-weight: 300;
@@ -215,6 +215,10 @@ html, body {
   color: #FFF;
   border-color: #4650FF; }
 
+label.error {
+  color: red;
+  font-size: 10px; }
+
 header {
   padding-top: 10px; }
   header h1 {
@@ -236,10 +240,6 @@ header {
     max-width: 200px;
     text-align: center;
     display: block; }
-  header .header_image {
-    padding: 0;
-    margin: 0;
-    text-align: left; }
   header .bg_header_img {
     padding: 0;
     margin: 0;
