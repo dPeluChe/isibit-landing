@@ -130,7 +130,7 @@
   src: url("../../fonts/avenir/AvenirLTStd-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/avenir/AvenirLTStd-Light.woff2") format("woff2"), url("../../fonts/avenir/AvenirLTStd-Light.woff") format("woff"), url("../../fonts/avenir/AvenirLTStd-Light.ttf") format("truetype"), url("../../fonts/avenir/AvenirLTStd-Light.svg#AvenirLTStd-Light") format("svg");
   font-weight: 300;
   font-style: normal; }
-.font-poppins, html, body, .main_title, .txt_block_title, .txt_title, header .description, .benefits .benefits_title, .appfor .txt_block_title, footer .footer_bold {
+.font-poppins, html, body, .main_title, .txt_block_title, .txt_title, .btn_beta, .btn_beta_white, header .description, .benefits .benefits_title, .appfor .txt_block_title, footer .footer_bold {
   font-family: 'Poppins', sans-serif; }
 
 .font-avenir, .txt_description, footer .footer_item {
@@ -157,8 +157,8 @@ html, body {
   padding: 5px; }
 
 .main_title {
-  font-size: 44px;
-  line-height: 43pt;
+  font-size: 41pt;
+  line-height: 51pt;
   text-align: center;
   font-weight: 600;
   margin: auto;
@@ -166,17 +166,17 @@ html, body {
 
 .txt_block_title {
   font-size: 30pt;
-  text-align: center;
-  font-weight: 500;
   line-height: 39pt;
+  text-align: center;
+  font-weight: 300;
   padding-top: 20px;
   padding-bottom: 20px; }
 
 .txt_title {
   font-size: 23pt;
-  text-align: center;
-  font-weight: normal;
-  line-height: 22pt; }
+  line-height: 22pt;
+  font-weight: 400;
+  text-align: center; }
 
 .txt_description {
   font-size: 14pt;
@@ -193,7 +193,10 @@ html, body {
 
 .btn_beta {
   color: #FFF;
-  width: 100%;
+  width: 308px;
+  height: 44px;
+  font-size: 15pt;
+  font-weight: 300;
   border-radius: 35px;
   margin: auto;
   text-align: center;
@@ -203,9 +206,12 @@ html, body {
   color: #4650FF; }
 
 .btn_beta_white {
-  color: #4650FF;
-  width: 100%;
   border-color: #4650FF;
+  color: #4650FF;
+  width: 308px;
+  height: 44px;
+  font-size: 15pt;
+  font-weight: 300;
   border-radius: 35px;
   margin: auto;
   text-align: center;

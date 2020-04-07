@@ -98,38 +98,43 @@ html, body{
 
 
 // GENERAL TEXT STYLES
+
+// T1
 .main_title{
   @extend .color_prim_blue;
   @extend .font-poppins;
-  font-size: 44px;
-  line-height: 43pt;
+  font-size: 41pt;
+  line-height: 51pt;
   text-align: center;
   font-weight: 600;
   margin: auto;
   padding:auto;
 }
 
+// T2
 .txt_block_title{
   @extend .color_prim_blue;
   @extend .font-poppins;
   font-size: 30pt;
-  text-align: center;
-  font-weight: 500;
   line-height: 39pt;
+  text-align: center;
+  font-weight: 300;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
+// T3
 .txt_title{
   @extend .color_sec_dark;
   @extend .font-poppins;
   font-size: 23pt;
-  text-align: center;
-  font-weight: normal;
   line-height: 22pt;
+  font-weight: 400;
+  text-align: center;
+
 }
 
-
+// P
 .txt_description{
   @extend .color_sec_dark;
   @extend .font-avenir;
@@ -158,9 +163,13 @@ html, body{
 }
 
 .btn_beta{
+  @extend .font-poppins;
   @extend .bg_prim_blue;
   color: $c_sec_white;
-  width: 100%;
+  width: 308px;
+  height: 44px;
+  font-size: 15pt;
+  font-weight: 300;
   border-radius: 35px;
   margin: auto;
   text-align: center;
@@ -172,10 +181,14 @@ html, body{
 }
 
 .btn_beta_white{
+  @extend .font-poppins;
   @extend .bg_white;
-  color: $c_prim_blue;
-  width: 100%;
   border-color: $c_prim_blue;
+  color: $c_prim_blue;
+  width: 308px;
+  height: 44px;
+  font-size: 15pt;
+  font-weight: 300;
   border-radius: 35px;
   margin: auto;
   text-align: center;
@@ -280,6 +293,7 @@ header{
   background-size: cover;
   @extend .bg_gray_light;
   min-height: 800px;
+
 
   .benefits_title{
     font-size: 30pt;
