@@ -16,7 +16,7 @@
 .color_sec_white, footer {
   color: #FFF; }
 
-.bg_prim_blue, .btn_beta, .btn_beta_white:hover, .btn_beta_white:focus, .btn_beta_white:active, .btn_beta_white.active, header .description .blue_rectangle, .support .blue_rectangle, .download .description .blue_rectangle, footer {
+.bg_prim_blue, .btn_beta, .btn_beta_white:hover, .btn_beta_white:focus, .btn_beta_white:active, .btn_beta_white.active, header .description .blue_rectangle, .platform .blue_rectangle, .download .description .blue_rectangle, footer {
   background-color: #4650FF; }
 
 .bg_black {
@@ -157,30 +157,30 @@ html, body {
   padding: 5px; }
 
 .main_title {
-  font-size: 41pt;
-  line-height: 51pt;
+  font-size: 55px;
+  line-height: 68px;
   text-align: center;
   font-weight: 600;
   margin: auto;
   padding: auto; }
 
 .txt_block_title {
-  font-size: 30pt;
-  line-height: 39pt;
+  font-size: 53px;
+  line-height: 69px;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 50px; }
 
 .txt_title {
-  font-size: 23pt;
+  font-size: 30px;
   line-height: 22pt;
   font-weight: 400;
   text-align: center; }
 
 .txt_description {
-  font-size: 14pt;
-  line-height: 22pt;
+  font-size: 19px;
+  line-height: 29px;
   text-align: center;
   font-weight: 300;
   padding-top: 10px; }
@@ -225,8 +225,13 @@ label.error {
   color: red;
   font-size: 10px; }
 
+.container-fluid, .navbar {
+  padding-left: 84px; }
+
 header {
   padding-top: 10px; }
+  header img.img-meeting {
+    max-height: 676px; }
   header h1 {
     font-size: 41pt;
     line-height: 51pt;
@@ -273,7 +278,7 @@ header {
   background-image: url("../../images/isibit_assets/backgrounds/l1/b1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 800px; }
+  min-height: 600px; }
   .benefits .benefits_title {
     font-size: 30pt;
     line-height: 39pt;
@@ -327,9 +332,14 @@ header {
   min-height: 700px; }
 
 .platform {
-  min-height: 800px;
+  min-height: 900px;
+  background-image: url("../../images/isibit_assets/backgrounds/l1/b2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 40px;
   padding-bottom: 20px; }
+  .platform .container {
+    padding-bottom: 40px; }
   .platform .platform_title {
     font-size: 35px;
     text-align: center;
@@ -356,6 +366,34 @@ header {
       width: 700px;
       padding: auto;
       margin: auto; }
+  .platform .card {
+    background: inherit;
+    border: inherit;
+    padding: 0;
+    margin: 0;
+    min-height: 475px; }
+  .platform .blue_rectangle {
+    padding: auto;
+    margin: auto;
+    width: 90%;
+    height: 4px; }
+  .platform .card_support {
+    padding-top: 60px; }
+    .platform .card_support .card-title {
+      font-size: 23pt;
+      text-align: center;
+      font-weight: normal;
+      line-height: 22pt; }
+    .platform .card_support .card-text {
+      font-size: 14pt;
+      line-height: 22pt;
+      text-align: center;
+      font-weight: lighter;
+      padding-top: 20px; }
+    .platform .card_support img {
+      height: 175px;
+      padding: auto;
+      margin: auto; }
 
 .support {
   background-image: url("../../images/isibit_assets/backgrounds/l1/b2.png");
@@ -369,41 +407,13 @@ header {
     font-weight: normal;
     margin-top: 50px;
     margin-bottom: 30px; }
-  .support .card {
-    background: inherit;
-    border: inherit;
-    padding: 0;
-    margin: 0;
-    min-height: 475px; }
-  .support .blue_rectangle {
-    padding: auto;
-    margin: auto;
-    width: 90%;
-    height: 4px; }
-  .support .card_support {
-    padding-top: 60px; }
-    .support .card_support .card-title {
-      font-size: 23pt;
-      text-align: center;
-      font-weight: normal;
-      line-height: 22pt; }
-    .support .card_support .card-text {
-      font-size: 14pt;
-      line-height: 22pt;
-      text-align: center;
-      font-weight: lighter;
-      padding-top: 20px; }
-    .support .card_support img {
-      height: 175px;
-      padding: auto;
-      margin: auto; }
 
 .needs {
   background-image: url("../../images/isibit_assets/backgrounds/l1/b3.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 100px;
-  min-height: 850px; }
+  min-height: 800px; }
   .needs .needs_card {
     background: rgba(255, 255, 255, 0.4);
     border-radius: 25px;
@@ -453,7 +463,7 @@ header {
   background-image: url("../../images/isibit_assets/backgrounds/l1/b4.png");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 650px; }
+  min-height: 723px; }
   .download .download_title {
     font-size: 41pt;
     text-align: left;
@@ -496,6 +506,7 @@ header {
   min-height: 650px; }
 
 footer {
+  min-height: 454px;
   padding-bottom: 50px;
   padding-top: 50px; }
   footer .row .col-12 {
