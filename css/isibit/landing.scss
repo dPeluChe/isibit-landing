@@ -46,6 +46,8 @@ $bg_white: #FFF;
 //@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap');
 
 @import "fonts.scss";
+//@import "../bootstrap/scss/bootstrap-grid";
+
 
 .font-poppins{
   font-family: 'Poppins', sans-serif;
@@ -103,20 +105,20 @@ html, body{
 .main_title{
   @extend .color_prim_blue;
   @extend .font-poppins;
-  font-size: 55px;
-  line-height: 68px;
-  text-align: center;
+  font-size: 41px;
+  line-height: 1.24;
+  text-align: left;
   font-weight: 600;
-  margin: auto;
-  padding:auto;
+  margin: 0;
+  padding: 0;
 }
 
 // T2
 .txt_block_title{
   @extend .color_prim_blue;
   @extend .font-poppins;
-  font-size: 53px;
-  line-height: 69px;
+  font-size: 30px;
+  line-height: 1.3;
   text-align: center;
   font-weight: 400;
   padding-top: 20px;
@@ -127,9 +129,9 @@ html, body{
 .txt_title{
   @extend .color_sec_dark;
   @extend .font-poppins;
-  font-size: 30px;
-  line-height: 22pt;
-  font-weight: 400;
+  font-size: 23px;
+  line-height: 1;
+  font-weight: 500;
   text-align: center;
 
 }
@@ -138,11 +140,11 @@ html, body{
 .txt_description{
   @extend .color_sec_dark;
   @extend .font-avenir;
-  font-size: 19px;
-  line-height: 29px;
+  font-size: 14px;
+  line-height: 1.57;
   text-align: center;
-  font-weight: 300;
-  padding-top:10px;
+  font-weight: 500;
+  padding-top: 20px;
 
 }
 
@@ -169,13 +171,14 @@ html, body{
   color: $c_sec_white;
   width: 308px;
   height: 44px;
-  font-size: 15pt;
-  font-weight: 300;
+  font-size: 15px;
+  font-weight: 500;
   border-radius: 35px;
   margin: auto;
   text-align: center;
   display: block;
 }
+
 .btn_beta:hover, .btn_beta:focus, .btn_beta:active, .btn_beta.active {
   @extend .bg_white;
   color: $c_prim_blue;
@@ -188,10 +191,9 @@ html, body{
   color: $c_prim_blue;
   width: 308px;
   height: 44px;
-  font-size: 15pt;
-  font-weight: 300;
+  font-size: 15px;
+  font-weight: 500;
   border-radius: 35px;
-  margin: auto;
   text-align: center;
   display: block;
 }
@@ -211,14 +213,17 @@ label.error{
 // BACKGROUND BLOCKS DEFINITION.
 
 .container-fluid, .navbar{
-  padding-left:84px
+  padding-left:0px;
+  //@include media-breakpoint-between(md, xl) {
+// padding-left:84px;
+ // }
 }
 
 header{
-  padding-top: 10px;
-  //max-height: 676px;
+  max-height: 676px;
 
   img.img-meeting{
+    text-align: right;
     max-height: 676px;
   }
 
@@ -236,8 +241,9 @@ header{
 
     .blue_rectangle{
       width: 5px;
-      height:100px;
-      margin-right: 20px;
+      height:54px;
+      margin-right: 10px;
+      margin-top: 23px;
       @extend .bg_prim_blue;
     }
 
@@ -249,11 +255,7 @@ header{
 
 
   .btns_apps{
-    margin: auto;
-    padding: auto;
-    max-width: 200px;
-    text-align: center;
-    display: block;
+    text-align: left;
   }
 
   .header_image{
@@ -301,7 +303,7 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   @extend .bg_gray_light;
-  min-height: 600px;
+  min-height: 676px;
 
 
   .benefits_title{
@@ -317,12 +319,13 @@ header{
 
   .card_benefits{
     .card{
+      background: rgba(255,255,255,0.8);
       @extend .bg_gray_light;
       height: 425px;
       padding-top: 10px;
       border: none;
       box-shadow: none;
-
+      border-radius: 41px;
     }
 
     .card-title{
@@ -346,14 +349,21 @@ header{
 }
 
 
+.nomargin{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
 .block_bg{
   margin-left: 0px;
   margin-right: 0px;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 40px;
   &.bg_main{
     padding-bottom: 0px;
-
   }
 }
 
@@ -387,7 +397,7 @@ header{
 
 
 .platform{
-  min-height: 900px;
+  min-height: 676px;
   background-image: url("../../images/isibit_assets/backgrounds/l1/b2.png") ;
   background-repeat: no-repeat;
   background-size: cover;
@@ -411,13 +421,14 @@ header{
 
   .card_platform{
     margin-bottom:30px;
+    box-shadow: none;
 
     .card{
-      padding-top: 30px;
-      padding-bottom: 30px;
-      padding-left: 20px;
-      padding-right: 20px;
-      border-radius: 20px;
+      background: rgba(255,255,255,0.8);
+      border-radius: 41px;
+      min-height: 475px;
+      box-shadow: none;
+      border:0px;
     }
     .card-title{
       font-size: 30pt;
@@ -439,54 +450,14 @@ header{
     }
   }
 
-  .card{
-    background: inherit;
-    border: inherit;
-    padding: 0;
-    margin: 0;
-    min-height: 475px;
-  }
 
-  .blue_rectangle{
-    padding: auto;
-    margin: auto;
-    width: 90%;
-    height:4px;
-    @extend .bg_prim_blue;
-  }
-  .card_support{
-    padding-top: 60px;
-
-    .card-title{
-      font-size: 23pt;
-      text-align: center;
-      font-weight: normal;
-      line-height: 22pt;
-    }
-
-    .card-text{
-      font-size: 14pt;
-      line-height: 22pt;
-      text-align: center;
-      font-weight: lighter;
-      padding-top: 20px;
-    }
-    img{
-      height: 175px;
-      padding: auto;
-      margin: auto;
-    }
-  }
 }
 
-
-
-
 .support{
-  background-image: url("../../images/isibit_assets/backgrounds/l1/b2.png") ;
+  //background-image: url("../../images/isibit_assets/backgrounds/l1/b2.png") ;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 800px;
+  min-height: 676px;
 
   @extend .bg_gray_light;
   padding-bottom: 40px;
@@ -499,7 +470,25 @@ header{
     margin-top: 50px;
     margin-bottom:30px;
   }
+  .blue_rectangle{
+    padding: auto;
+    margin: auto;
+    width: 90%;
+    height:4px;
+    @extend .bg_prim_blue;
+  }
+  .card_support{
+    padding-top: 30px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 41px;
+    min-height: 410px;
+    box-shadow: none;
+    border:0px;
+    .card{
+      border:0px;
 
+    }
+  }
 }
 
 
@@ -509,12 +498,17 @@ header{
   @extend .bg_white;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 100px;
-  min-height: 800px;
+  padding-top: 50px;
+  min-height: 676px;
 
+  .txt_block_title{
+    padding:0;
+  }
   .needs_card{
-    background: rgba(255,255,255,0.4);
-    border-radius: 25px;
+    padding-top: 30px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 41px;
+    min-height: 410px;
     padding-bottom: 70px;
   }
   .needs_title{
@@ -523,8 +517,7 @@ header{
     font-weight: normal;
     line-height: 39pt;
     @extend .color_prim_blue;
-    margin-top: 50px;
-    margin-bottom:30px;
+
     span{
       @extend .color_sec_dark;
     }
@@ -583,7 +576,7 @@ header{
   background-image: url("../../images/isibit_assets/backgrounds/l1/b4.png");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 723px;
+  min-height: 676px;
 
   .download_title{
     font-size: 41pt;
@@ -596,10 +589,15 @@ header{
   }
 
   .download_subtitle{
+    @extend .font-poppins;
     font-size: 22pt;
     text-align: center;
     font-weight: lighter;
     @extend .color_prim_blue;
+  }
+  .main_title{
+    font-weight: 500;
+    padding-top: 20px;
   }
 
   .description{
@@ -608,18 +606,10 @@ header{
 
     .blue_rectangle{
       width: 5px;
-      height:100px;
-      margin-right: 20px;
+      height:54px;
+      margin-right: 10px;
+      margin-top: 23px;
       @extend .bg_prim_blue;
-    }
-    .txt_description{
-      font-size: 14pt;
-      font-weight: lighter;
-      line-height: 22pt;
-      text-align: center;
-      padding-right: 40px;
-      padding-left: 40px;
-      margin-bottom: 10px;
     }
   }
 
@@ -667,17 +657,32 @@ footer{
 
   .footer_bold{
     @extend .font-poppins;
-    font-size: 19pt;
+    font-size: 19px;
     text-align: center;
     font-weight: bold;
+    line-height: 1.26;
   }
 
   .footer_item{
     @extend .font-avenir;
-    font-size: 17pt;
+    font-size: 17px;
     padding-top: 23pt;
+    line-height: 1.35;
     text-align: center;
     font-weight: lighter;
+  }
+
+  .footer_item_isibit{
+    @extend .font-avenir;
+    font-size: 15px;
+    padding-top: 23pt;
+    line-height: 1.35;
+    text-align: center;
+    font-weight: lighter;
+  }
+
+  .icon_space{
+    padding-left:10px
   }
 
 }

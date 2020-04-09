@@ -16,7 +16,7 @@
 .color_sec_white, footer {
   color: #FFF; }
 
-.bg_prim_blue, .btn_beta, .btn_beta_white:hover, .btn_beta_white:focus, .btn_beta_white:active, .btn_beta_white.active, header .description .blue_rectangle, .platform .blue_rectangle, .download .description .blue_rectangle, footer {
+.bg_prim_blue, .btn_beta, .btn_beta_white:hover, .btn_beta_white:focus, .btn_beta_white:active, .btn_beta_white.active, header .description .blue_rectangle, .support .blue_rectangle, .download .description .blue_rectangle, footer {
   background-color: #4650FF; }
 
 .bg_black {
@@ -130,10 +130,10 @@
   src: url("../../fonts/avenir/AvenirLTStd-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/avenir/AvenirLTStd-Light.woff2") format("woff2"), url("../../fonts/avenir/AvenirLTStd-Light.woff") format("woff"), url("../../fonts/avenir/AvenirLTStd-Light.ttf") format("truetype"), url("../../fonts/avenir/AvenirLTStd-Light.svg#AvenirLTStd-Light") format("svg");
   font-weight: 300;
   font-style: normal; }
-.font-poppins, html, body, .main_title, .txt_block_title, .txt_title, .btn_beta, .btn_beta_white, header .description, .benefits .benefits_title, .appfor .txt_block_title, footer .footer_bold {
+.font-poppins, html, body, .main_title, .txt_block_title, .txt_title, .btn_beta, .btn_beta_white, header .description, .benefits .benefits_title, .appfor .txt_block_title, .download .download_subtitle, footer .footer_bold {
   font-family: 'Poppins', sans-serif; }
 
-.font-avenir, .txt_description, footer .footer_item {
+.font-avenir, .txt_description, footer .footer_item, footer .footer_item_isibit {
   font-family: 'Avenir LT Std', sans-serif; }
 
 html, body {
@@ -157,33 +157,33 @@ html, body {
   padding: 5px; }
 
 .main_title {
-  font-size: 55px;
-  line-height: 68px;
-  text-align: center;
+  font-size: 41px;
+  line-height: 1.24;
+  text-align: left;
   font-weight: 600;
-  margin: auto;
-  padding: auto; }
+  margin: 0;
+  padding: 0; }
 
 .txt_block_title {
-  font-size: 53px;
-  line-height: 69px;
+  font-size: 30px;
+  line-height: 1.3;
   text-align: center;
   font-weight: 400;
   padding-top: 20px;
   padding-bottom: 50px; }
 
 .txt_title {
-  font-size: 30px;
-  line-height: 22pt;
-  font-weight: 400;
+  font-size: 23px;
+  line-height: 1;
+  font-weight: 500;
   text-align: center; }
 
 .txt_description {
-  font-size: 19px;
-  line-height: 29px;
+  font-size: 14px;
+  line-height: 1.57;
   text-align: center;
-  font-weight: 300;
-  padding-top: 10px; }
+  font-weight: 500;
+  padding-top: 20px; }
 
 #btn_managers, #btn_teams, #btn_travelers {
   cursor: pointer; }
@@ -195,8 +195,8 @@ html, body {
   color: #FFF;
   width: 308px;
   height: 44px;
-  font-size: 15pt;
-  font-weight: 300;
+  font-size: 15px;
+  font-weight: 500;
   border-radius: 35px;
   margin: auto;
   text-align: center;
@@ -210,10 +210,9 @@ html, body {
   color: #4650FF;
   width: 308px;
   height: 44px;
-  font-size: 15pt;
-  font-weight: 300;
+  font-size: 15px;
+  font-weight: 500;
   border-radius: 35px;
-  margin: auto;
   text-align: center;
   display: block; }
 
@@ -226,11 +225,12 @@ label.error {
   font-size: 10px; }
 
 .container-fluid, .navbar {
-  padding-left: 84px; }
+  padding-left: 0px; }
 
 header {
-  padding-top: 10px; }
+  max-height: 676px; }
   header img.img-meeting {
+    text-align: right;
     max-height: 676px; }
   header h1 {
     font-size: 41pt;
@@ -241,16 +241,13 @@ header {
     display: -webkit-inline-box; }
     header .description .blue_rectangle {
       width: 5px;
-      height: 100px;
-      margin-right: 20px; }
+      height: 54px;
+      margin-right: 10px;
+      margin-top: 23px; }
   header .btn_beta_space {
     padding: 20px; }
   header .btns_apps {
-    margin: auto;
-    padding: auto;
-    max-width: 200px;
-    text-align: center;
-    display: block; }
+    text-align: left; }
   header .bg_header_img {
     padding: 0;
     margin: 0;
@@ -278,7 +275,7 @@ header {
   background-image: url("../../images/isibit_assets/backgrounds/l1/b1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 600px; }
+  min-height: 676px; }
   .benefits .benefits_title {
     font-size: 30pt;
     line-height: 39pt;
@@ -287,10 +284,12 @@ header {
     margin-top: 50px;
     margin-bottom: 30px; }
   .benefits .card_benefits .card {
+    background: rgba(255, 255, 255, 0.8);
     height: 425px;
     padding-top: 10px;
     border: none;
-    box-shadow: none; }
+    box-shadow: none;
+    border-radius: 41px; }
   .benefits .card_benefits .card-title {
     font-size: 23pt;
     text-align: center;
@@ -304,10 +303,16 @@ header {
     padding: auto;
     margin: auto; }
 
+.nomargin {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px; }
+
 .block_bg {
   margin-left: 0px;
   margin-right: 0px;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 40px; }
   .block_bg.bg_main {
     padding-bottom: 0px; }
@@ -332,7 +337,7 @@ header {
   min-height: 700px; }
 
 .platform {
-  min-height: 900px;
+  min-height: 676px;
   background-image: url("../../images/isibit_assets/backgrounds/l1/b2.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -347,13 +352,14 @@ header {
     margin-top: 50px;
     margin-bottom: 30px; }
   .platform .card_platform {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    box-shadow: none; }
     .platform .card_platform .card {
-      padding-top: 30px;
-      padding-bottom: 30px;
-      padding-left: 20px;
-      padding-right: 20px;
-      border-radius: 20px; }
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 41px;
+      min-height: 475px;
+      box-shadow: none;
+      border: 0px; }
     .platform .card_platform .card-title {
       font-size: 30pt;
       text-align: center;
@@ -366,40 +372,11 @@ header {
       width: 700px;
       padding: auto;
       margin: auto; }
-  .platform .card {
-    background: inherit;
-    border: inherit;
-    padding: 0;
-    margin: 0;
-    min-height: 475px; }
-  .platform .blue_rectangle {
-    padding: auto;
-    margin: auto;
-    width: 90%;
-    height: 4px; }
-  .platform .card_support {
-    padding-top: 60px; }
-    .platform .card_support .card-title {
-      font-size: 23pt;
-      text-align: center;
-      font-weight: normal;
-      line-height: 22pt; }
-    .platform .card_support .card-text {
-      font-size: 14pt;
-      line-height: 22pt;
-      text-align: center;
-      font-weight: lighter;
-      padding-top: 20px; }
-    .platform .card_support img {
-      height: 175px;
-      padding: auto;
-      margin: auto; }
 
 .support {
-  background-image: url("../../images/isibit_assets/backgrounds/l1/b2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 800px;
+  min-height: 676px;
   padding-bottom: 40px; }
   .support .support_title {
     font-size: 35px;
@@ -407,24 +384,40 @@ header {
     font-weight: normal;
     margin-top: 50px;
     margin-bottom: 30px; }
+  .support .blue_rectangle {
+    padding: auto;
+    margin: auto;
+    width: 90%;
+    height: 4px; }
+  .support .card_support {
+    padding-top: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 41px;
+    min-height: 410px;
+    box-shadow: none;
+    border: 0px; }
+    .support .card_support .card {
+      border: 0px; }
 
 .needs {
   background-image: url("../../images/isibit_assets/backgrounds/l1/b3.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 100px;
-  min-height: 800px; }
+  padding-top: 50px;
+  min-height: 676px; }
+  .needs .txt_block_title {
+    padding: 0; }
   .needs .needs_card {
-    background: rgba(255, 255, 255, 0.4);
-    border-radius: 25px;
+    padding-top: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 41px;
+    min-height: 410px;
     padding-bottom: 70px; }
   .needs .needs_title {
     font-size: 30pt;
     text-align: center;
     font-weight: normal;
-    line-height: 39pt;
-    margin-top: 50px;
-    margin-bottom: 30px; }
+    line-height: 39pt; }
   .needs .needs_description {
     font-size: 20px;
     text-align: center;
@@ -463,7 +456,7 @@ header {
   background-image: url("../../images/isibit_assets/backgrounds/l1/b4.png");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 723px; }
+  min-height: 676px; }
   .download .download_title {
     font-size: 41pt;
     text-align: left;
@@ -472,21 +465,17 @@ header {
     font-size: 22pt;
     text-align: center;
     font-weight: lighter; }
+  .download .main_title {
+    font-weight: 500;
+    padding-top: 20px; }
   .download .description {
     padding-top: 30px;
     display: -webkit-inline-box; }
     .download .description .blue_rectangle {
       width: 5px;
-      height: 100px;
-      margin-right: 20px; }
-    .download .description .txt_description {
-      font-size: 14pt;
-      font-weight: lighter;
-      line-height: 22pt;
-      text-align: center;
-      padding-right: 40px;
-      padding-left: 40px;
-      margin-bottom: 10px; }
+      height: 54px;
+      margin-right: 10px;
+      margin-top: 23px; }
   .download .download_btns {
     padding-top: 30px; }
 
@@ -512,14 +501,24 @@ footer {
   footer .row .col-12 {
     margin-top: 20px; }
   footer .footer_bold {
-    font-size: 19pt;
+    font-size: 19px;
     text-align: center;
-    font-weight: bold; }
+    font-weight: bold;
+    line-height: 1.26; }
   footer .footer_item {
-    font-size: 17pt;
+    font-size: 17px;
     padding-top: 23pt;
+    line-height: 1.35;
     text-align: center;
     font-weight: lighter; }
+  footer .footer_item_isibit {
+    font-size: 15px;
+    padding-top: 23pt;
+    line-height: 1.35;
+    text-align: center;
+    font-weight: lighter; }
+  footer .icon_space {
+    padding-left: 10px; }
 
 .modal-content {
   border-radius: 25px; }
