@@ -244,10 +244,6 @@ header {
       height: 54px;
       margin-right: 10px;
       margin-top: 23px; }
-  header .btn_beta_space {
-    padding: 20px; }
-  header .btns_apps {
-    text-align: left; }
   header .bg_header_img {
     padding: 0;
     margin: 0;
@@ -271,8 +267,26 @@ header {
     background-size: cover;
     min-height: 550px; }
 
+.btn_beta_space {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px; }
+
+.btns_apps {
+  text-align: left;
+  padding-right: 30px; }
+
+.nomargin {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.img-huge {
+  max-width: 180px; }
+
 .benefits {
-  background-image: url("../../images/isibit_assets/backgrounds/l1/b1.png");
+  background-image: url("../../images/isibit_assets/backgrounds/l1/b1.svg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 676px; }
@@ -285,8 +299,8 @@ header {
     margin-bottom: 30px; }
   .benefits .card_benefits .card {
     background: rgba(255, 255, 255, 0.8);
-    height: 425px;
-    padding-top: 10px;
+    height: 390px;
+    padding-top: 20px;
     border: none;
     box-shadow: none;
     border-radius: 41px; }
@@ -303,12 +317,6 @@ header {
     padding: auto;
     margin: auto; }
 
-.nomargin {
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 0px;
-  padding-right: 0px; }
-
 .block_bg {
   margin-left: 0px;
   margin-right: 0px;
@@ -321,30 +329,44 @@ header {
   background-image: url("../../images/isibit_assets/backgrounds/l2/b2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 950px; }
+  min-height: 676px;
+  padding-top: 50px;
+  padding-bottom: 50px; }
   .appfor .card {
-    border-radius: 20px; }
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 41px;
+    box-shadow: none;
+    border: 0px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 40px; }
   .appfor .txt_block_title {
-    font-size: 21pt;
+    font-size: 27px;
     text-align: center;
-    font-weight: bold;
-    line-height: 28pt; }
+    font-weight: 400;
+    line-height: 28pt;
+    padding-top: 10px;
+    padding-bottom: 10px; }
 
 .webplatform {
   background-image: url("../../images/isibit_assets/backgrounds/l2/b3.png");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 700px; }
+  min-height: 676px;
+  padding-top: 100px;
+  padding-bottom: 0px; }
 
 .platform {
   min-height: 676px;
-  background-image: url("../../images/isibit_assets/backgrounds/l1/b2.png");
+  background-image: url("../../images/isibit_assets/backgrounds/l1/b2.svg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 40px;
   padding-bottom: 20px; }
   .platform .container {
     padding-bottom: 40px; }
+  .platform .platform-txt-space {
+    padding-left: 20px; }
   .platform .platform_title {
     font-size: 35px;
     text-align: center;
@@ -374,6 +396,7 @@ header {
       margin: auto; }
 
 .support {
+  background-image: url("../../images/isibit_assets/backgrounds/l1/b3.svg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 676px;
@@ -400,7 +423,7 @@ header {
       border: 0px; }
 
 .needs {
-  background-image: url("../../images/isibit_assets/backgrounds/l1/b3.png");
+  background-image: url("../../images/isibit_assets/backgrounds/l1/b4.svg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 50px;
@@ -478,6 +501,8 @@ header {
       margin-top: 23px; }
   .download .download_btns {
     padding-top: 30px; }
+    .download .download_btns .btns_apps {
+      padding-right: 30px; }
 
 .madein .made_image {
   margin: auto;
@@ -486,13 +511,17 @@ header {
   background-image: url("../../images/isibit_assets/assets/madein.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px; }
+  height: 400px; }
 
 .culture {
   background-image: url("../../images/isibit_assets/backgrounds/l3/b2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 650px; }
+  min-height: 400px;
+  padding-top: 100px; }
+  .culture .txt_block_title {
+    font-size: 27px;
+    padding-bottom: 20px; }
 
 footer {
   min-height: 454px;

@@ -219,6 +219,8 @@ label.error{
  // }
 }
 
+
+
 header{
   max-height: 676px;
 
@@ -249,14 +251,9 @@ header{
 
   }
 
-  .btn_beta_space{
-    padding:20px;
-  }
 
 
-  .btns_apps{
-    text-align: left;
-  }
+
 
   .header_image{
     @extend .borders;
@@ -298,8 +295,33 @@ header{
 }
 
 
+
+.btn_beta_space{
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:0px;
+}
+.btns_apps{
+  text-align: left;
+  padding-right: 30px;
+
+}
+
+.nomargin{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+.img-huge{
+  max-width: 180px;
+}
+
+
 .benefits{
-  background-image: url("../../images/isibit_assets/backgrounds/l1/b1.png") ;
+  background-image: url("../../images/isibit_assets/backgrounds/l1/b1.svg") ;
   background-repeat: no-repeat;
   background-size: cover;
   @extend .bg_gray_light;
@@ -321,8 +343,8 @@ header{
     .card{
       background: rgba(255,255,255,0.8);
       @extend .bg_gray_light;
-      height: 425px;
-      padding-top: 10px;
+      height: 390px;
+      padding-top: 20px;
       border: none;
       box-shadow: none;
       border-radius: 41px;
@@ -349,12 +371,6 @@ header{
 }
 
 
-.nomargin{
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-}
 
 
 .block_bg{
@@ -372,18 +388,29 @@ header{
   background-image: url("../../images/isibit_assets/backgrounds/l2/b2.png") ;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 950px;
+  min-height: 676px;
+  padding-top:50px;
+  padding-bottom:50px;
 
   .card{
-    border-radius: 20px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 41px;
+    box-shadow: none;
+    border: 0px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+
   }
   .txt_block_title{
     @extend .color_prim_blue;
     @extend .font-poppins;
-    font-size: 21pt;
+    font-size: 27px;
     text-align: center;
-    font-weight: bold;
+    font-weight: 400;
     line-height: 28pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
@@ -391,14 +418,16 @@ header{
   background-image: url("../../images/isibit_assets/backgrounds/l2/b3.png") ;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 700px;
+  min-height: 676px;
+  padding-top: 100px;
+  padding-bottom: 0px;
 
 }
 
 
 .platform{
   min-height: 676px;
-  background-image: url("../../images/isibit_assets/backgrounds/l1/b2.png") ;
+  background-image: url("../../images/isibit_assets/backgrounds/l1/b2.svg") ;
   background-repeat: no-repeat;
   background-size: cover;
   @extend .bg_gray_light;
@@ -408,6 +437,9 @@ header{
   .container{
     padding-bottom: 40px;
   }
+  .platform-txt-space{
+    padding-left: 20px;
+  }
 
   .platform_title{
     font-size: 35px;
@@ -416,7 +448,6 @@ header{
     @extend .color_prim_blue;
     margin-top:50px;
     margin-bottom:30px;
-
   }
 
   .card_platform{
@@ -454,7 +485,7 @@ header{
 }
 
 .support{
-  //background-image: url("../../images/isibit_assets/backgrounds/l1/b2.png") ;
+  background-image: url("../../images/isibit_assets/backgrounds/l1/b3.svg") ;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 676px;
@@ -494,7 +525,7 @@ header{
 
 
 .needs{
-  background-image: url("../../images/isibit_assets/backgrounds/l1/b3.png") ;
+  background-image: url("../../images/isibit_assets/backgrounds/l1/b4.svg") ;
   @extend .bg_white;
   background-repeat: no-repeat;
   background-size: cover;
@@ -615,6 +646,9 @@ header{
 
   .download_btns{
     padding-top: 30px;
+    .btns_apps{
+      padding-right: 30px;
+    }
   }
 }
 
@@ -630,7 +664,7 @@ header{
     background-image: url("../../images/isibit_assets/assets/madein.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 400px;
   }
 }
 
@@ -639,7 +673,16 @@ header{
   background-image: url("../../images/isibit_assets/backgrounds/l3/b2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 650px;
+  min-height: 400px;
+  padding-top: 100px;
+
+  .txt_block_title{
+    font-size: 27px;
+    padding-bottom: 20px;
+  }
+  .txt_description{
+
+  }
 }
 
 
