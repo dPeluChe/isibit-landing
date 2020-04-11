@@ -3,19 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2b1bf31d-5b32-4c80-bb4e-34fd4fdc8b73" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/.sass-cache/dabd1ef217957bde86d1ab3212575696e2fb49a5/landing.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/.sass-cache/dabd1ef217957bde86d1ab3212575696e2fb49a5/landing.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/landing.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/landing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features.html" beforeDir="false" afterPath="$PROJECT_DIR$/features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/isibit_assets/botons/app_apple_blue.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/isibit_assets/botons/app_apple_blue.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/isibit_assets/botons/app_apple_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/isibit_assets/botons/app_apple_white.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/isibit_assets/botons/app_googleplay_blue.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/isibit_assets/botons/app_googleplay_blue.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/isibit_assets/botons/app_googleplay_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/isibit_assets/botons/app_googleplay_white.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/isibit_assets/icons/feature_1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/isibit_assets/icons/feature_1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/isibit_assets/icons/feature_2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/isibit_assets/icons/feature_2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/isibit_assets/icons/feature_3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/isibit_assets/icons/feature_3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/isibit_assets/backgrounds/l1/b4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/isibit_assets/backgrounds/l1/b4.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +82,8 @@
       <workItem from="1586361869252" duration="3299000" />
       <workItem from="1586387771028" duration="9371000" />
       <workItem from="1586451342461" duration="322000" />
-      <workItem from="1586621025307" duration="7395000" />
+      <workItem from="1586621025307" duration="7447000" />
+      <workItem from="1586630855003" duration="237000" />
     </task>
     <servers />
   </component>

@@ -147,7 +147,7 @@ html, body {
   padding: 0;
   margin: 0; }
 
-.borders, header .header_image {
+.borders, header .header_image, .support {
   border: 1px solid red; }
 
 .nav-link {
@@ -400,6 +400,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 676px;
+  padding-top: 120px;
   padding-bottom: 40px; }
   .support .support_title {
     font-size: 35px;
@@ -432,7 +433,6 @@ header {
     padding: 0; }
   .needs .needs_card {
     padding-top: 30px;
-    background: rgba(255, 255, 255, 0.1);
     border-radius: 41px;
     min-height: 410px;
     padding-bottom: 70px; }
