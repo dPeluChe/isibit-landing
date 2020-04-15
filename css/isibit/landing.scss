@@ -276,20 +276,20 @@ header{
   &.bg_features{
      padding: auto;
      margin: auto;
-     background-image: url("../../images/isibit_assets/backgrounds/l2/b1.png") ;
+     background-image: url("../../images/isibit_assets/backgrounds/l2/b1.svg") ;
      background-repeat: no-repeat;
      background-size: cover;
-     min-height: 600px;
+     min-height: 676px;
      @extend .bg_white;
    }
 
   &.bg_aboutus{
     padding: auto;
     margin: auto;
-    background-image: url("../../images/isibit_assets/backgrounds/l3/b1.png") ;
+    background-image: url("../../images/isibit_assets/backgrounds/l3/b1.svg") ;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 550px;
+    min-height: 676px;
     @extend .bg_white;
   }
 }
@@ -385,7 +385,7 @@ header{
 
 .appfor{
   @extend .bg_gray_light;
-  background-image: url("../../images/isibit_assets/backgrounds/l2/b2.png") ;
+  background-image: url("../../images/isibit_assets/backgrounds/l2/b2.svg") ;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 676px;
@@ -415,7 +415,7 @@ header{
 }
 
 .webplatform{
-  background-image: url("../../images/isibit_assets/backgrounds/l2/b3.png") ;
+  background-image: url("../../images/isibit_assets/backgrounds/l2/b3.svg") ;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 676px;
@@ -490,7 +490,7 @@ header{
   background-size: cover;
   min-height: 676px;
   padding-top: 120px;
-  @extend .borders;
+
 
   @extend .bg_gray_light;
   padding-bottom: 40px;
@@ -606,7 +606,6 @@ header{
 .download{
   @extend .bg_white;
   #background-image: url("../../images/isibit_assets/assets/isibit_app.png");
-  background-image: url("../../images/isibit_assets/backgrounds/l1/b4.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 676px;
@@ -672,7 +671,7 @@ header{
 
 .culture{
   @extend .bg_white;
-  background-image: url("../../images/isibit_assets/backgrounds/l3/b2.png");
+  background-image: url("../../images/isibit_assets/backgrounds/l3/b2.svg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
@@ -735,8 +734,14 @@ footer{
 
 
 .modal-content{
-  border-radius: 25px;
+  border-radius: 23px;
 
+  box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.16);
+  .main_title{
+
+    padding: auto;
+    margin: auto;
+  }
   .form-control{
     border: 0;
     border-bottom: 1px solid $c_prim_purple;

@@ -147,7 +147,7 @@ html, body {
   padding: 0;
   margin: 0; }
 
-.borders, header .header_image, .support {
+.borders, header .header_image {
   border: 1px solid red; }
 
 .nav-link {
@@ -255,17 +255,17 @@ header {
   header.bg_features {
     padding: auto;
     margin: auto;
-    background-image: url("../../images/isibit_assets/backgrounds/l2/b1.png");
+    background-image: url("../../images/isibit_assets/backgrounds/l2/b1.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 600px; }
+    min-height: 676px; }
   header.bg_aboutus {
     padding: auto;
     margin: auto;
-    background-image: url("../../images/isibit_assets/backgrounds/l3/b1.png");
+    background-image: url("../../images/isibit_assets/backgrounds/l3/b1.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 550px; }
+    min-height: 676px; }
 
 .btn_beta_space {
   padding-top: 20px;
@@ -326,7 +326,7 @@ header {
     padding-bottom: 0px; }
 
 .appfor {
-  background-image: url("../../images/isibit_assets/backgrounds/l2/b2.png");
+  background-image: url("../../images/isibit_assets/backgrounds/l2/b2.svg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 676px;
@@ -349,7 +349,7 @@ header {
     padding-bottom: 10px; }
 
 .webplatform {
-  background-image: url("../../images/isibit_assets/backgrounds/l2/b3.png");
+  background-image: url("../../images/isibit_assets/backgrounds/l2/b3.svg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 676px;
@@ -476,7 +476,6 @@ header {
 
 .download {
   #background-image: url("../../images/isibit_assets/assets/isibit_app.png");
-  background-image: url("../../images/isibit_assets/backgrounds/l1/b4.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 676px; }
@@ -514,7 +513,7 @@ header {
   height: 400px; }
 
 .culture {
-  background-image: url("../../images/isibit_assets/backgrounds/l3/b2.png");
+  background-image: url("../../images/isibit_assets/backgrounds/l3/b2.svg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
@@ -550,7 +549,11 @@ footer {
     padding-left: 10px; }
 
 .modal-content {
-  border-radius: 25px; }
+  border-radius: 23px;
+  box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.16); }
+  .modal-content .main_title {
+    padding: auto;
+    margin: auto; }
   .modal-content .form-control {
     border: 0;
     border-bottom: 1px solid #BFC3FF; }
