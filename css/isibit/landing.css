@@ -16,7 +16,7 @@
 .color_sec_white, footer {
   color: #FFF; }
 
-.bg_prim_blue, .btn_beta, .btn_beta_white:hover, .btn_beta_white:focus, .btn_beta_white:active, .btn_beta_white.active, header .description .blue_rectangle, .support .blue_rectangle, .download .description .blue_rectangle, footer {
+.bg_prim_blue, .btn_beta, .btn_beta_white:hover, .btn_beta_white:focus, .btn_beta_white:visited, .btn_beta_white.active, header .description .blue_rectangle, .support .blue_rectangle, .download .description .blue_rectangle, footer {
   background-color: #4650FF; }
 
 .bg_black {
@@ -34,7 +34,7 @@
 .bg_gray_light, .navbar-light, .benefits, .benefits .card_benefits .card, .appfor, .platform, .support, .madein {
   background-color: #f7f7f7; }
 
-.bg_white, .btn_beta:hover, .btn_beta:focus, .btn_beta:active, .btn_beta.active, .btn_beta_white, header.bg_features, header.bg_aboutus, .needs, .download, .culture {
+.bg_white, .btn_beta:hover, .btn_beta:focus, .btn_beta:active, .btn_beta.visited, .btn_beta_white, header.bg_features, header.bg_aboutus, .needs, .download, .culture {
   background-color: #FFF; }
 
 /* poppins-200 - latin */
@@ -205,8 +205,9 @@ html, body {
   text-align: center;
   display: block; }
 
-.btn_beta:hover, .btn_beta:focus, .btn_beta:active, .btn_beta.active {
-  color: #4650FF; }
+.btn_beta:hover, .btn_beta:focus, .btn_beta:active, .btn_beta.visited {
+  color: #4650FF;
+  border-color: #4650FF; }
 
 .btn_beta_white {
   border-color: #4650FF;
@@ -219,7 +220,7 @@ html, body {
   text-align: center;
   display: block; }
 
-.btn_beta_white:hover, .btn_beta_white:focus, .btn_beta_white:active, .btn_beta_white.active {
+.btn_beta_white:hover, .btn_beta_white:focus, .btn_beta_white:visited, .btn_beta_white.active {
   color: #FFF;
   border-color: #4650FF; }
 
@@ -268,6 +269,7 @@ header {
     background-image: url("../../images/isibit_assets/backgrounds/l3/b1.svg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
     min-height: 676px; }
 
 .btn_beta_space {
@@ -361,8 +363,9 @@ header {
   background-image: url("../../images/isibit_assets/backgrounds/l2/b3.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 815px;
-  padding-top: 100px;
+  background-position: right;
+  min-height: 676px;
+  padding-top: 120px;
   padding-bottom: 0px; }
   .webplatform .txt_description {
     padding-right: 10px; }
@@ -517,6 +520,9 @@ header {
 .madein .made_image {
   margin: auto;
   pading: auto; }
+.madein .txt_block_title {
+  padding-top: 0px;
+  padding-bottom: 0px; }
 .madein #made_backgroud {
   background-image: url("../../images/isibit_assets/assets/madein.png");
   background-repeat: no-repeat;

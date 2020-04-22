@@ -183,9 +183,10 @@ html, body{
   display: block;
 }
 
-.btn_beta:hover, .btn_beta:focus, .btn_beta:active, .btn_beta.active {
+.btn_beta:hover, .btn_beta:focus, .btn_beta:active, .btn_beta.visited,{
   @extend .bg_white;
   color: $c_prim_blue;
+  border-color: $c_prim_blue;
 }
 
 .btn_beta_white{
@@ -201,7 +202,7 @@ html, body{
   text-align: center;
   display: block;
 }
-.btn_beta_white:hover, .btn_beta_white:focus, .btn_beta_white:active, .btn_beta_white.active {
+.btn_beta_white:hover, .btn_beta_white:focus, .btn_beta_white:visited, .btn_beta_white.active {
   @extend .bg_prim_blue;
   color: $c_sec_white;
   border-color: $c_prim_blue;
@@ -293,6 +294,7 @@ header{
     background-image: url("../../images/isibit_assets/backgrounds/l3/b1.svg") ;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
     min-height: 676px;
     @extend .bg_white;
   }
@@ -430,8 +432,9 @@ header{
   background-image: url("../../images/isibit_assets/backgrounds/l2/b3.svg") ;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 815px;
-  padding-top: 100px;
+  background-position: right;
+  min-height: 676px;
+  padding-top: 120px;
   padding-bottom: 0px;
 
   .txt_description{
@@ -674,6 +677,10 @@ header{
   .made_image{
     margin: auto;
     pading: auto;
+  }
+  .txt_block_title{
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   #made_backgroud{
