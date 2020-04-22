@@ -165,6 +165,10 @@ html, body{
   padding-bottom: 40px;
 }
 
+.btn-primary{
+  border-color: $c_prim_blue;
+}
+
 .btn_beta{
   @extend .font-poppins;
   @extend .bg_prim_blue;
@@ -343,11 +347,16 @@ header{
     .card{
       background: rgba(255,255,255,0.8);
       @extend .bg_gray_light;
-      height: 390px;
-      padding-top: 20px;
+      height: 420px;
       border: none;
       box-shadow: none;
       border-radius: 41px;
+      padding-top:50px;
+
+      .txt_title{
+        padding-top:10px;
+        margin-bottom:0px;
+      }
     }
 
     .card-title{
@@ -396,11 +405,11 @@ header{
     background: rgba(255,255,255,0.8);
     border-radius: 41px;
     box-shadow: none;
-    border: 0px;
-    padding-top: 40px;
+    border: 1px;
+    padding-top: 60px;
     padding-left: 30px;
     padding-bottom: 40px;
-
+    min-height: 424px;
   }
   .txt_block_title{
     @extend .color_prim_blue;
@@ -410,7 +419,10 @@ header{
     font-weight: 400;
     line-height: 28pt;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
+  }
+  .txt_description{
+    padding-top:10px;
   }
 }
 
@@ -418,10 +430,13 @@ header{
   background-image: url("../../images/isibit_assets/backgrounds/l2/b3.svg") ;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 676px;
+  min-height: 815px;
   padding-top: 100px;
   padding-bottom: 0px;
 
+  .txt_description{
+    padding-right:10px;
+  }
 }
 
 
