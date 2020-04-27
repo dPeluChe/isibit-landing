@@ -4,11 +4,9 @@
     <list default="true" id="2b1bf31d-5b32-4c80-bb4e-34fd4fdc8b73" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/isibit/.sass-cache/dabd1ef217957bde86d1ab3212575696e2fb49a5/landing.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/.sass-cache/dabd1ef217957bde86d1ab3212575696e2fb49a5/landing.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/isibit/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/isibit/landing.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/isibit/landing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features.html" beforeDir="false" afterPath="$PROJECT_DIR$/features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/isibit_assets/assets/aboutus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/isibit_assets/assets/aboutus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/isibit_assets/backgrounds/l3/b1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/isibit_assets/backgrounds/l3/b1.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +86,8 @@
       <workItem from="1586877892391" duration="102000" />
       <workItem from="1586990910889" duration="3079000" />
       <workItem from="1587513471298" duration="2837000" />
-      <workItem from="1587522359777" duration="1185000" />
+      <workItem from="1587522359777" duration="1630000" />
+      <workItem from="1588028982000" duration="1425000" />
     </task>
     <servers />
   </component>
