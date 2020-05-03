@@ -235,7 +235,9 @@ header {
   max-height: 676px; }
   header img.img-meeting {
     text-align: right;
-    max-height: 676px; }
+    max-height: 676px;
+    padding: 0px;
+    margin: 0px; }
   header h1 {
     font-size: 41pt;
     line-height: 51pt;
