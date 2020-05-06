@@ -66,6 +66,7 @@ html, body{
   position: relative;
   padding-top: 50px;
   @extend .font-poppins;
+  background-color: $bg_gray_light;
 }
 
 .row{

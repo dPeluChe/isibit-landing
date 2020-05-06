@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/css/isibit/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/landing.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/isibit/landing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/isibit/landing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
       <workItem from="1588037579253" duration="67000" />
       <workItem from="1588037763721" duration="226000" />
       <workItem from="1588524823067" duration="1250000" />
-      <workItem from="1588780829605" duration="187000" />
+      <workItem from="1588780829605" duration="831000" />
     </task>
     <servers />
   </component>
