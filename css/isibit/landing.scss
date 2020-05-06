@@ -387,8 +387,9 @@ header{
 
 
 .block_bg{
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+
   padding-top: 20px;
   padding-bottom: 40px;
   &.bg_main{
